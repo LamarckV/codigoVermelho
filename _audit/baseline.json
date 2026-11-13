@@ -1,0 +1,1092 @@
+{
+  "timestamp": "2026-10-22T10:32:59.140Z",
+  "css": {
+    "totalBytes": 132932,
+    "totalImportant": 670,
+    "breakdown": {
+      "tokens.css": {
+        "bytes": 4407,
+        "importantCount": 0
+      },
+      "editorial.css": {
+        "bytes": 52623,
+        "importantCount": 5
+      },
+      "landing.css": {
+        "bytes": 9677,
+        "importantCount": 2
+      },
+      "responsive.css": {
+        "bytes": 9633,
+        "importantCount": 3
+      },
+      "layout-repair.css": {
+        "bytes": 34206,
+        "importantCount": 656
+      },
+      "components.css": {
+        "bytes": 21555,
+        "importantCount": 4
+      },
+      "styles.css": {
+        "bytes": 831,
+        "importantCount": 0
+      }
+    }
+  },
+  "widths": {
+    "320": {
+      "sectionIds": [
+        "capa",
+        "sumario",
+        "sem-id",
+        "editorial-1",
+        "editorial-2",
+        "contexto-1",
+        "contexto-2",
+        "reportagem-1",
+        "reportagem-2",
+        "direito-1",
+        "direito-2",
+        "subemprego",
+        "subemprego-2",
+        "intervencao",
+        "expediente",
+        "referencias"
+      ],
+      "offendingSections": [
+        {
+          "id": "capa",
+          "aspectRatio": "auto",
+          "maxHeight": "820px",
+          "overflowX": "hidden",
+          "overflowY": "hidden"
+        }
+      ],
+      "overflowingElementsCount": 0,
+      "overflowingSample": [],
+      "hasHorizontalScroll": false,
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "totalProseParagraphs": 81,
+      "unjustifiedCount": 39,
+      "unjustifiedSample": [
+        {
+          "textSnippet": "Formulado pelo teórico Matteo Pasquinelli, o conce...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Termo cunhado pela pesquisadora Mary Gray para des...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Como a implantação de um agente interno de Intelig...",
+          "textAlign": "center",
+          "sectionId": "reportagem-1"
+        },
+        {
+          "textSnippet": "O painel de People Analytics, o desligamento em de...",
+          "textAlign": "center",
+          "sectionId": "reportagem-2"
+        },
+        {
+          "textSnippet": "Conceito formulado pelos economistas Daron Acemogl...",
+          "textAlign": "start",
+          "sectionId": "reportagem-2"
+        }
+      ],
+      "scrollHeight": 49663
+    },
+    "390": {
+      "sectionIds": [
+        "capa",
+        "sumario",
+        "sem-id",
+        "editorial-1",
+        "editorial-2",
+        "contexto-1",
+        "contexto-2",
+        "reportagem-1",
+        "reportagem-2",
+        "direito-1",
+        "direito-2",
+        "subemprego",
+        "subemprego-2",
+        "intervencao",
+        "expediente",
+        "referencias"
+      ],
+      "offendingSections": [
+        {
+          "id": "capa",
+          "aspectRatio": "auto",
+          "maxHeight": "820px",
+          "overflowX": "hidden",
+          "overflowY": "hidden"
+        }
+      ],
+      "overflowingElementsCount": 0,
+      "overflowingSample": [],
+      "hasHorizontalScroll": false,
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "totalProseParagraphs": 81,
+      "unjustifiedCount": 39,
+      "unjustifiedSample": [
+        {
+          "textSnippet": "Formulado pelo teórico Matteo Pasquinelli, o conce...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Termo cunhado pela pesquisadora Mary Gray para des...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Como a implantação de um agente interno de Intelig...",
+          "textAlign": "center",
+          "sectionId": "reportagem-1"
+        },
+        {
+          "textSnippet": "O painel de People Analytics, o desligamento em de...",
+          "textAlign": "center",
+          "sectionId": "reportagem-2"
+        },
+        {
+          "textSnippet": "Conceito formulado pelos economistas Daron Acemogl...",
+          "textAlign": "start",
+          "sectionId": "reportagem-2"
+        }
+      ],
+      "scrollHeight": 41024
+    },
+    "768": {
+      "sectionIds": [
+        "capa",
+        "sumario",
+        "sem-id",
+        "editorial-1",
+        "editorial-2",
+        "contexto-1",
+        "contexto-2",
+        "reportagem-1",
+        "reportagem-2",
+        "direito-1",
+        "direito-2",
+        "subemprego",
+        "subemprego-2",
+        "intervencao",
+        "expediente",
+        "referencias"
+      ],
+      "offendingSections": [
+        {
+          "id": "capa",
+          "aspectRatio": "auto",
+          "maxHeight": "820px",
+          "overflowX": "hidden",
+          "overflowY": "hidden"
+        }
+      ],
+      "overflowingElementsCount": 0,
+      "overflowingSample": [],
+      "hasHorizontalScroll": false,
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "totalProseParagraphs": 81,
+      "unjustifiedCount": 39,
+      "unjustifiedSample": [
+        {
+          "textSnippet": "Formulado pelo teórico Matteo Pasquinelli, o conce...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Termo cunhado pela pesquisadora Mary Gray para des...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Como a implantação de um agente interno de Intelig...",
+          "textAlign": "center",
+          "sectionId": "reportagem-1"
+        },
+        {
+          "textSnippet": "O painel de People Analytics, o desligamento em de...",
+          "textAlign": "center",
+          "sectionId": "reportagem-2"
+        },
+        {
+          "textSnippet": "Conceito formulado pelos economistas Daron Acemogl...",
+          "textAlign": "start",
+          "sectionId": "reportagem-2"
+        }
+      ],
+      "scrollHeight": 31152
+    },
+    "1024": {
+      "sectionIds": [
+        "capa",
+        "sumario",
+        "sem-id",
+        "editorial-1",
+        "editorial-2",
+        "contexto-1",
+        "contexto-2",
+        "reportagem-1",
+        "reportagem-2",
+        "direito-1",
+        "direito-2",
+        "subemprego",
+        "subemprego-2",
+        "intervencao",
+        "expediente",
+        "referencias"
+      ],
+      "offendingSections": [
+        {
+          "id": "capa",
+          "aspectRatio": "auto",
+          "maxHeight": "820px",
+          "overflowX": "hidden",
+          "overflowY": "hidden"
+        }
+      ],
+      "overflowingElementsCount": 4,
+      "overflowingSample": [
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (14px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (14px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (14px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (14px)"
+        }
+      ],
+      "hasHorizontalScroll": false,
+      "scrollWidth": 1024,
+      "innerWidth": 1024,
+      "totalProseParagraphs": 81,
+      "unjustifiedCount": 39,
+      "unjustifiedSample": [
+        {
+          "textSnippet": "Formulado pelo teórico Matteo Pasquinelli, o conce...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Termo cunhado pela pesquisadora Mary Gray para des...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Como a implantação de um agente interno de Intelig...",
+          "textAlign": "center",
+          "sectionId": "reportagem-1"
+        },
+        {
+          "textSnippet": "O painel de People Analytics, o desligamento em de...",
+          "textAlign": "center",
+          "sectionId": "reportagem-2"
+        },
+        {
+          "textSnippet": "Conceito formulado pelos economistas Daron Acemogl...",
+          "textAlign": "start",
+          "sectionId": "reportagem-2"
+        }
+      ],
+      "scrollHeight": 24058
+    },
+    "1280": {
+      "sectionIds": [
+        "capa",
+        "sumario",
+        "sem-id",
+        "editorial-1",
+        "editorial-2",
+        "contexto-1",
+        "contexto-2",
+        "reportagem-1",
+        "reportagem-2",
+        "direito-1",
+        "direito-2",
+        "subemprego",
+        "subemprego-2",
+        "intervencao",
+        "expediente",
+        "referencias"
+      ],
+      "offendingSections": [
+        {
+          "id": "capa",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "820px",
+          "overflowX": "hidden",
+          "overflowY": "hidden"
+        },
+        {
+          "id": "sumario",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "editorial-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "editorial-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "contexto-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "contexto-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "reportagem-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "reportagem-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "direito-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "direito-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "subemprego",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "subemprego-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "intervencao",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "expediente",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "referencias",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        }
+      ],
+      "overflowingElementsCount": 7,
+      "overflowingSample": [
+        {
+          "tag": "img",
+          "className": "cover-logo",
+          "parentId": "PICTURE",
+          "reason": "Excede largura do container (10px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (5px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (5px)"
+        },
+        {
+          "tag": "aside",
+          "className": "box box-blue box-list abs",
+          "parentId": "direito-2",
+          "reason": "Corta verticalmente no container (14px)"
+        },
+        {
+          "tag": "h3",
+          "className": "",
+          "parentId": "box box-blue box-list abs",
+          "reason": "Excede largura do container (2px)"
+        }
+      ],
+      "hasHorizontalScroll": false,
+      "scrollWidth": 1280,
+      "innerWidth": 1280,
+      "totalProseParagraphs": 81,
+      "unjustifiedCount": 13,
+      "unjustifiedSample": [
+        {
+          "textSnippet": "Formulado pelo teórico Matteo Pasquinelli, o conce...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Termo cunhado pela pesquisadora Mary Gray para des...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Como a implantação de um agente interno de Intelig...",
+          "textAlign": "center",
+          "sectionId": "reportagem-1"
+        },
+        {
+          "textSnippet": "O painel de People Analytics, o desligamento em de...",
+          "textAlign": "center",
+          "sectionId": "reportagem-2"
+        },
+        {
+          "textSnippet": "Conceito formulado pelos economistas Daron Acemogl...",
+          "textAlign": "start",
+          "sectionId": "reportagem-2"
+        }
+      ],
+      "scrollHeight": 13863
+    },
+    "1440": {
+      "sectionIds": [
+        "capa",
+        "sumario",
+        "sem-id",
+        "editorial-1",
+        "editorial-2",
+        "contexto-1",
+        "contexto-2",
+        "reportagem-1",
+        "reportagem-2",
+        "direito-1",
+        "direito-2",
+        "subemprego",
+        "subemprego-2",
+        "intervencao",
+        "expediente",
+        "referencias"
+      ],
+      "offendingSections": [
+        {
+          "id": "capa",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "820px",
+          "overflowX": "hidden",
+          "overflowY": "hidden"
+        },
+        {
+          "id": "sumario",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "editorial-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "editorial-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "contexto-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "contexto-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "reportagem-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "reportagem-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "direito-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "direito-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "subemprego",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "subemprego-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "intervencao",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "expediente",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "referencias",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        }
+      ],
+      "overflowingElementsCount": 6,
+      "overflowingSample": [
+        {
+          "tag": "img",
+          "className": "cover-logo",
+          "parentId": "PICTURE",
+          "reason": "Excede largura do container (37px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (4px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (4px)"
+        },
+        {
+          "tag": "h3",
+          "className": "",
+          "parentId": "box box-blue box-list abs",
+          "reason": "Excede largura do container (4px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (4px)"
+        }
+      ],
+      "hasHorizontalScroll": false,
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "totalProseParagraphs": 81,
+      "unjustifiedCount": 13,
+      "unjustifiedSample": [
+        {
+          "textSnippet": "Formulado pelo teórico Matteo Pasquinelli, o conce...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Termo cunhado pela pesquisadora Mary Gray para des...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Como a implantação de um agente interno de Intelig...",
+          "textAlign": "center",
+          "sectionId": "reportagem-1"
+        },
+        {
+          "textSnippet": "O painel de People Analytics, o desligamento em de...",
+          "textAlign": "center",
+          "sectionId": "reportagem-2"
+        },
+        {
+          "textSnippet": "Conceito formulado pelos economistas Daron Acemogl...",
+          "textAlign": "start",
+          "sectionId": "reportagem-2"
+        }
+      ],
+      "scrollHeight": 13883
+    },
+    "1920": {
+      "sectionIds": [
+        "capa",
+        "sumario",
+        "sem-id",
+        "editorial-1",
+        "editorial-2",
+        "contexto-1",
+        "contexto-2",
+        "reportagem-1",
+        "reportagem-2",
+        "direito-1",
+        "direito-2",
+        "subemprego",
+        "subemprego-2",
+        "intervencao",
+        "expediente",
+        "referencias"
+      ],
+      "offendingSections": [
+        {
+          "id": "capa",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "820px",
+          "overflowX": "hidden",
+          "overflowY": "hidden"
+        },
+        {
+          "id": "sumario",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "editorial-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "editorial-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "contexto-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "contexto-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "reportagem-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "reportagem-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "direito-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "direito-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "subemprego",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "subemprego-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "intervencao",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "expediente",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "referencias",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        }
+      ],
+      "overflowingElementsCount": 8,
+      "overflowingSample": [
+        {
+          "tag": "img",
+          "className": "cover-logo",
+          "parentId": "PICTURE",
+          "reason": "Excede largura do container (37px)"
+        },
+        {
+          "tag": "div",
+          "className": "copy abs",
+          "parentId": "contexto-1",
+          "reason": "Corta verticalmente no container (31px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (4px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (4px)"
+        },
+        {
+          "tag": "aside",
+          "className": "box box-blue box-list abs",
+          "parentId": "direito-2",
+          "reason": "Corta verticalmente no container (47px)"
+        }
+      ],
+      "hasHorizontalScroll": false,
+      "scrollWidth": 1920,
+      "innerWidth": 1920,
+      "totalProseParagraphs": 81,
+      "unjustifiedCount": 13,
+      "unjustifiedSample": [
+        {
+          "textSnippet": "Formulado pelo teórico Matteo Pasquinelli, o conce...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Termo cunhado pela pesquisadora Mary Gray para des...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Como a implantação de um agente interno de Intelig...",
+          "textAlign": "center",
+          "sectionId": "reportagem-1"
+        },
+        {
+          "textSnippet": "O painel de People Analytics, o desligamento em de...",
+          "textAlign": "center",
+          "sectionId": "reportagem-2"
+        },
+        {
+          "textSnippet": "Conceito formulado pelos economistas Daron Acemogl...",
+          "textAlign": "start",
+          "sectionId": "reportagem-2"
+        }
+      ],
+      "scrollHeight": 13885
+    },
+    "2560": {
+      "sectionIds": [
+        "capa",
+        "sumario",
+        "sem-id",
+        "editorial-1",
+        "editorial-2",
+        "contexto-1",
+        "contexto-2",
+        "reportagem-1",
+        "reportagem-2",
+        "direito-1",
+        "direito-2",
+        "subemprego",
+        "subemprego-2",
+        "intervencao",
+        "expediente",
+        "referencias"
+      ],
+      "offendingSections": [
+        {
+          "id": "capa",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "820px",
+          "overflowX": "hidden",
+          "overflowY": "hidden"
+        },
+        {
+          "id": "sumario",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "editorial-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "editorial-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "contexto-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "contexto-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "reportagem-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "reportagem-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "direito-1",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "direito-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "subemprego",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "subemprego-2",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "intervencao",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "expediente",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        },
+        {
+          "id": "referencias",
+          "aspectRatio": "1440 / 1024",
+          "maxHeight": "824px",
+          "overflowX": "hidden",
+          "overflowY": "auto"
+        }
+      ],
+      "overflowingElementsCount": 8,
+      "overflowingSample": [
+        {
+          "tag": "img",
+          "className": "cover-logo",
+          "parentId": "PICTURE",
+          "reason": "Excede largura do container (37px)"
+        },
+        {
+          "tag": "div",
+          "className": "copy abs",
+          "parentId": "contexto-1",
+          "reason": "Corta verticalmente no container (31px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (4px)"
+        },
+        {
+          "tag": "button",
+          "className": "chart-zoom-btn",
+          "parentId": "chart abs",
+          "reason": "Corta verticalmente no container (4px)"
+        },
+        {
+          "tag": "aside",
+          "className": "box box-blue box-list abs",
+          "parentId": "direito-2",
+          "reason": "Corta verticalmente no container (47px)"
+        }
+      ],
+      "hasHorizontalScroll": false,
+      "scrollWidth": 2560,
+      "innerWidth": 2560,
+      "totalProseParagraphs": 81,
+      "unjustifiedCount": 13,
+      "unjustifiedSample": [
+        {
+          "textSnippet": "Formulado pelo teórico Matteo Pasquinelli, o conce...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Termo cunhado pela pesquisadora Mary Gray para des...",
+          "textAlign": "center",
+          "sectionId": "contexto-1"
+        },
+        {
+          "textSnippet": "Como a implantação de um agente interno de Intelig...",
+          "textAlign": "center",
+          "sectionId": "reportagem-1"
+        },
+        {
+          "textSnippet": "O painel de People Analytics, o desligamento em de...",
+          "textAlign": "center",
+          "sectionId": "reportagem-2"
+        },
+        {
+          "textSnippet": "Conceito formulado pelos economistas Daron Acemogl...",
+          "textAlign": "start",
+          "sectionId": "reportagem-2"
+        }
+      ],
+      "scrollHeight": 13885
+    }
+  }
+}

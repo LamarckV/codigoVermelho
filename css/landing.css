@@ -1,0 +1,659 @@
+/* ==========================================================================
+   CÓDIGO VERMELHO — COMPONENTES DE SHELL & ACESSIBILIDADE (landing.css)
+   Shell, Header Fixo, Navegação, Progresso, Lightbox Modal e Rodapé
+   Em conformidade estrita com WCAG 2.1 / 2.2 Níveis A, AA e AAA
+   ========================================================================== */
+
+/* ---------- 1. Acessibilidade Global: :focus-visible Adaptativo ---------- */
+
+/* Remove contorno em cliques convencionais de mouse, preservando teclado */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Foco em superfícies claras (Contraste > 5.8:1) */
+:focus-visible {
+  outline: 3px solid var(--red, #e00508);
+  outline-offset: 3px;
+}
+
+/* Foco em superfícies escuras, reportagem noturna e rodapé (WCAG AAA > 9:1) */
+.page-dark :focus-visible,
+.site-dark :focus-visible,
+.box-dark :focus-visible,
+[data-theme="dark"] :focus-visible,
+.site-footer :focus-visible,
+.chart-dialog__close :focus-visible {
+  outline: 3px solid var(--yellow-tape, #f3ea00);
+  outline-offset: 3px;
+}
+
+/* Compensação de rolagem para o cabeçalho fixo */
+:target,
+[id] {
+  scroll-margin-top: calc(var(--header-height, 56px) + 16px);
+}
+
+/* ---------- 2. Skip Link (Fita de Acesso Rápido Pericial) ---------- */
+.skip-link {
+  position: absolute;
+  top: -120px;
+  left: 20px;
+  z-index: 10000;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 20px;
+  background: var(--yellow-tape, #f3ea00);
+  color: #000000;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0 var(--red, #e00508);
+  transition: top 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  top: 16px;
+  outline: 3px solid #000000;
+  outline-offset: 2px;
+}
+
+/* ---------- 3. Barra de Progresso Superior (Reading Progress) ---------- */
+.reading-progress-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.5px;
+  background: rgba(22, 58, 86, 0.14);
+  box-shadow: inset 0 1px 1px rgba(22, 58, 86, 0.08);
+  pointer-events: none;
+  z-index: 1001;
+  overflow: hidden;
+  transition: background-color 300ms ease;
+}
+
+.site-header[data-theme="dark"] .reading-progress-track {
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.reading-progress-bar {
+  display: block;
+  position: relative;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #990002 0%, var(--red, #e00508) 70%, var(--orange, #ed4b2a) 100%);
+  box-shadow: 0 0 6px rgba(224, 5, 8, 0.45);
+}
+
+.site-header[data-theme="dark"] .reading-progress-bar {
+  background: linear-gradient(90deg, var(--red, #e00508) 0%, #ff2a2e 65%, var(--yellow-tape, #f3ea00) 100%);
+  box-shadow: 0 0 8px rgba(243, 234, 0, 0.55);
+}
+
+/* Agulha de Leitura na extremidade ativa */
+.reading-progress-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 0 0 4px #ffffff;
+}
+
+/* ---------- 4. Header Fixo & Branding (.site-header) ---------- */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height, 56px);
+  background-color: var(--paper, #f7f6f2);
+  border-bottom: 2px solid var(--navy, #163a56);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(16px, 3vw, 36px);
+  box-shadow: 0 2px 4px rgba(22, 58, 86, 0.08);
+  transition:
+    background-color 240ms ease,
+    border-color 240ms ease,
+    box-shadow 240ms ease;
+  transform: translateZ(0);
+}
+
+@supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+  .site-header {
+    background-color: rgba(247, 246, 242, 0.86);
+    backdrop-filter: blur(14px) saturate(180%);
+    -webkit-backdrop-filter: blur(14px) saturate(180%);
+  }
+}
+
+.site-header[data-theme="dark"] {
+  background-color: #0b1219;
+  border-bottom: 2px solid var(--red, #e00508);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+@supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+  .site-header[data-theme="dark"] {
+    background-color: rgba(11, 18, 25, 0.88);
+  }
+}
+
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.site-header .site-header__logo {
+  height: 28px;
+  width: auto;
+  aspect-ratio: 354 / 144;
+  object-fit: contain;
+  display: block;
+  filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='f' color-interpolation-filters='sRGB'%3E%3CfeColorMatrix type='matrix' values='1.2653 -0.4149 -0.7447 0 0  0.3083 0.0334 -0.0206 0 0  0.0814 0.1923 0.2141 0 0  0 0 0 1 0'/%3E%3C/filter%3E%3C/svg%3E#f");
+  filter: url('#logo-blue-filter');
+  transition: filter 240ms ease;
+}
+
+.site-header[data-theme="dark"] .site-header__logo {
+  filter: none;
+}
+
+.site-header__tagline {
+  font-family: var(--font-mono, monospace);
+  font-size: 11px;
+  color: var(--navy, #163a56);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-left: 1px solid var(--rule-light, rgba(22, 58, 86, 0.14));
+  padding-left: 10px;
+}
+
+.site-header[data-theme="dark"] .site-header__tagline {
+  color: var(--reportagem-muted, #8fa0b0);
+  border-left-color: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 768px) {
+  .site-header__tagline {
+    display: none;
+  }
+}
+
+/* ---------- 5. Navegação (.site-nav) & Régua de Hover ---------- */
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav__list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav__link {
+  position: relative;
+  font-family: var(--font-body, var(--sans));
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--navy, #163a56);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 8px 10px;
+  border-radius: 2px;
+  transition: color 160ms ease, background-color 160ms ease;
+}
+
+/* Sublinhado animado milimétrico construtivista */
+.site-nav__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 2px;
+  background: var(--red, #e00508);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.site-nav__link:hover {
+  color: var(--red, #e00508);
+  background-color: rgba(224, 5, 8, 0.06);
+}
+
+.site-nav__link:hover::after {
+  transform: scaleX(1);
+}
+
+.site-nav__link[aria-current="true"] {
+  color: var(--red, #e00508);
+  background-color: rgba(224, 5, 8, 0.08);
+}
+
+.site-nav__link[aria-current="true"]::after {
+  transform: scaleX(1);
+}
+
+.site-header[data-theme="dark"] .site-nav__link {
+  color: #cdd9e5;
+}
+
+.site-header[data-theme="dark"] .site-nav__link:hover,
+.site-header[data-theme="dark"] .site-nav__link[aria-current="true"] {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.site-header[data-theme="dark"] .site-nav__link::after {
+  background: var(--yellow-tape, #f3ea00);
+}
+
+/* ---------- 6. Controles: Contador de Leitura e Botão Mobile ---------- */
+.site-header__controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reading-counter {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+  color: var(--navy, #163a56);
+  padding: 4px 10px;
+  border: 1px solid var(--navy, #163a56);
+  background: #ffffff;
+  box-shadow: 2px 2px 0 var(--navy, #163a56);
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+}
+
+.site-header[data-theme="dark"] .reading-counter {
+  background: #080c10;
+  color: #ffffff;
+  border-color: var(--red, #e00508);
+  box-shadow: 2px 2px 0 var(--red, #e00508);
+}
+
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border: 2px solid var(--navy, #163a56);
+  color: var(--navy, #163a56);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 140ms ease;
+}
+
+.site-header[data-theme="dark"] .nav-toggle {
+  border-color: var(--red, #e00508);
+  color: #ffffff;
+}
+
+/* Drawer Mobile com contenção de altura e rolagem segura */
+@media (max-width: 1024px) {
+  .site-nav {
+    display: none;
+  }
+  .nav-toggle {
+    display: flex;
+  }
+  .site-nav.is-open {
+    display: flex;
+    position: fixed;
+    top: var(--header-height, 56px);
+    left: 0;
+    right: 0;
+    max-height: calc(100dvh - var(--header-height, 56px));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background-color: var(--paper, #f7f6f2);
+    padding: 20px 24px;
+    border-bottom: 4px solid var(--red, #e00508);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+  }
+  .site-header[data-theme="dark"] .site-nav.is-open {
+    background-color: #0b1219;
+  }
+  .site-nav.is-open .site-nav__list {
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .site-nav.is-open .site-nav__link {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    border-bottom: 1px solid rgba(22, 58, 86, 0.1);
+  }
+  .site-header[data-theme="dark"] .site-nav.is-open .site-nav__link {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* ---------- 7. Lightbox Modal dos Gráficos (<dialog class="chart-dialog">) ---------- */
+
+/* Salvaguarda incondicional para navegadores sem allow-discrete */
+dialog.chart-dialog:not([open]) {
+  display: none !important;
+}
+
+.chart-dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  padding: clamp(20px, 3.5vw, 32px);
+  width: min(94vw, 1140px);
+  max-height: min(90vh, 880px);
+  background: #ffffff;
+  color: var(--ink, #14171a);
+  border: 3px solid var(--red, #e00508);
+  box-shadow: 10px 10px 0 var(--navy, #163a56);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  z-index: 10001;
+  opacity: 0;
+  transform: scale(0.97) translateY(8px);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease,
+    overlay 220ms ease allow-discrete,
+    display 220ms ease allow-discrete;
+}
+
+.chart-dialog[open] {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+@starting-style {
+  .chart-dialog[open] {
+    opacity: 0;
+    transform: scale(0.97) translateY(8px);
+  }
+}
+
+.chart-dialog::backdrop {
+  background: rgba(11, 18, 25, 0.88);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  transition:
+    opacity 220ms ease,
+    overlay 220ms ease allow-discrete,
+    display 220ms ease allow-discrete;
+}
+
+.chart-dialog[open]::backdrop {
+  opacity: 1;
+}
+
+@starting-style {
+  .chart-dialog[open]::backdrop {
+    opacity: 0;
+  }
+}
+
+/* Botão Fechar Rigorosamente Acessível (44x44px em todas as resoluções) */
+.chart-dialog__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  background: var(--red, #e00508);
+  color: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0 #000000;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  z-index: 2;
+  box-sizing: border-box;
+  transition:
+    background var(--duration-fast, 160ms) ease,
+    transform var(--duration-fast, 160ms) ease,
+    box-shadow var(--duration-fast, 160ms) ease;
+}
+
+.chart-dialog__close:hover {
+  background: var(--navy, #163a56);
+  transform: scale(1.05);
+  box-shadow: 3px 3px 0 #000000;
+}
+
+.chart-dialog__close:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #000000;
+}
+
+.chart-dialog__content {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 24px 4px 4px;
+}
+
+.chart-dialog__content .chart[data-chart] {
+  width: min(100%, 920px);
+  max-width: 920px;
+  margin: 0 auto;
+  cursor: default;
+}
+
+.chart-dialog__content .chart__columns {
+  min-height: min(34vh, 320px);
+}
+
+.chart-dialog__caption {
+  font-family: var(--font-body, var(--sans));
+  font-size: clamp(0.85rem, 0.81rem + 0.2vw, 0.94rem);
+  line-height: var(--leading-normal, 1.5);
+  color: var(--ink, #14171a);
+  margin: 16px 0 0 0;
+  padding: 12px 16px;
+  background: var(--paper, #f7f6f2);
+  border-left: 3px solid var(--red, #e00508);
+  border-top: 1px solid rgba(22, 58, 86, 0.14);
+  flex-shrink: 0;
+}
+
+/* ---------- 8. Rodapé Institucional Integrado (.site-footer) ---------- */
+.site-footer {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(180deg, var(--navy, #163a56) 0%, var(--navy-dark, #0e2436) 100%);
+  color: #ffffff;
+  border-top: 5px solid var(--red, #e00508);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -8px 24px rgba(0, 0, 0, 0.12);
+  margin-top: clamp(56px, 7vw, 96px);
+  padding: clamp(48px, 6vw, 72px) var(--container-gutter, clamp(16px, 3.5vw, 36px)) clamp(36px, 4vw, 56px);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Trama pericial milimetrada discreta (puramente decorativa) */
+.site-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image:
+    linear-gradient(to right, #ffffff 1px, transparent 1px),
+    linear-gradient(to bottom, #ffffff 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.site-footer__inner {
+  position: relative;
+  z-index: 1;
+  max-width: var(--container-max, 1220px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(28px, 4vw, 36px);
+}
+
+.site-footer__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  padding-bottom: clamp(24px, 3.5vw, 32px);
+}
+
+.site-footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 64ch;
+}
+
+.site-footer__brand img {
+  display: block;
+  max-width: 220px;
+  height: auto;
+}
+
+.site-footer__brand p {
+  margin: 0;
+  font-family: var(--font-body, var(--sans));
+  font-size: clamp(0.88rem, 0.84rem + 0.2vw, 0.96rem);
+  line-height: var(--leading-normal, 1.5);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+
+/* ---------- 9. Botão Voltar ao Topo (.back-to-top) ---------- */
+.back-to-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  min-width: 148px;
+  padding: 10px 20px;
+  background: var(--red, #e00508);
+  color: #ffffff;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1.5px solid #ffffff;
+  box-shadow: 3px 3px 0 #000000;
+  box-sizing: border-box;
+  transition:
+    background var(--duration-fast, 160ms) ease,
+    color var(--duration-fast, 160ms) ease,
+    transform var(--duration-fast, 160ms) ease,
+    box-shadow var(--duration-fast, 160ms) ease;
+}
+
+.back-to-top:hover {
+  background: #ffffff;
+  color: var(--red, #e00508);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0 #000000;
+}
+
+.back-to-top:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #000000;
+}
+
+/* ---------- 10. Acessibilidade de Movimento Reduzido (prefers-reduced-motion) ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html,
+  body,
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transform: none !important;
+  }
+
+  .chart-dialog::backdrop {
+    backdrop-filter: none !important;
+  }
+}
+
+/* ---------- 11. Responsividade Mobile Estrita (320px a 680px) ---------- */
+@media (max-width: 680px) {
+  .site-footer__top {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+
+  .back-to-top {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .chart-dialog {
+    padding: 16px;
+    width: 96vw;
+    max-height: 94vh;
+  }
+
+  .chart-dialog__close {
+    top: 10px;
+    right: 10px;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+

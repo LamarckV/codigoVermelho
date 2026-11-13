@@ -1,0 +1,429 @@
+{
+  "source": "index.html",
+  "generatedAt": "2026-10-22T16:12:44.779Z",
+  "pageCount": 15,
+  "thematicGroupCount": 10,
+  "totalImages": 15,
+  "totalCharts": 10,
+  "globalHash": "c003f511b021bc83b85e33083d8f846f36120359f0712d287abbfed99719e4fd",
+  "sections": [
+    {
+      "id": "capa",
+      "dataPage": "01",
+      "ariaLabel": "Capa",
+      "ariaLabelledby": null,
+      "normalizedText": "1º Edição Editora 4:04 Edição 1 - ano 1 - nº 1 18 de outubro de 2026 Trabalho descartável: Até quando vamos fingir que isso é progresso?",
+      "images": [
+        {
+          "basename": "capa-foto.jpg",
+          "alt": "Executivo de tecnologia retratado como metade humano e metade máquina"
+        },
+        {
+          "basename": "codigo-vermelho-logo.png",
+          "alt": "Código Vermelho"
+        },
+        {
+          "basename": "editora-404-logo.png",
+          "alt": "Editora 4:04"
+        }
+      ],
+      "charts": [],
+      "sha256": "25edc0257ba88ddcfcfeb6c696ec4ec53fe0838ecbc9bb50fdab5340eef7adf3"
+    },
+    {
+      "id": "sumario",
+      "dataPage": "02",
+      "ariaLabel": null,
+      "ariaLabelledby": "sumario-title",
+      "normalizedText": "Código Vermelho Sumário Nesta edição Até quando vamos fingir que isso é progresso? 01.Editorialp. 03-04 02.Contextualizaçãop. 05-06 03.Reportagemp. 07-08 04.Direito em Xequep. 09-10 05.O Labirinto do Subempregop. 11-12 06.Proposta de Intervençãop. 13 07.Expediente e Integrantesp. 14 08.Referências Bibliográficasp. 15",
+      "images": [
+        {
+          "basename": "sumario.png",
+          "alt": "Robôs sentados enquanto um trabalhador sai carregando uma caixa com seus pertences"
+        }
+      ],
+      "charts": [],
+      "sha256": "a1a1135795864392fb7b53055f9a2780ef6738f4150f8db358d95ccd214a0aa3"
+    },
+    {
+      "id": "editorial-1",
+      "dataPage": "03",
+      "ariaLabel": "Editorial, página 3",
+      "ariaLabelledby": null,
+      "normalizedText": "Edito rial 01.Editorialp. 03 Nenhuma linha de programação nasce sozinha. Por trás das respostas da IA está o trabalho de milhões de pessoas que o mercado agora tenta descartar. Para Matteo Pasquinelli, a tecnologia é trabalho cristalizado: sistemas treinados com décadas de textos, códigos e saberes humanos, muitas vezes sem remuneração a seus criadores. Essa inteligência coletiva passa, então, a servir a cortes de vagas e salários. No Brasil, a demora em regulamentar a proteção constitucional contra a automação facilita o descarte de profissionais qualificados. Esta edição expõe esse mecanismo e os direitos a que o trabalhador pode recorrer. A automação substitutiva, descrita por Daron Acemoglu e Pascual Restrepo, troca equipes por software para reduzir custos, em vez de apoiar trabalhadores e criar funções. A revista apresenta os casos da Klarna, que substituiu atividades de 700 profissionais, e da Meta, que anunciou corte de cerca de 8 mil postos sob o argumento da automação. No Brasil, agentes de IA e painéis de produtividade também acompanham trabalhadores e podem servir de pretexto para dispensas por suposta “falta de adaptação”. A Constituição de 1988 prevê proteção contra a automação e a despedida arbitrária (Art. 7º, XXVII e I), mas o Congresso ainda não regulamentou essas garantias. O STF reconheceu a irregularidade na denúncia da Convenção 158 da OIT, sem restabelecer seus efeitos, e exige diálogo sindical prévio nas dispensas coletivas, não um acordo. Ainda assim, o trabalhador pode questionar decisões automatizadas pela LGPD (Art. 20) e invocar a responsabilidade do empregador pelos riscos do negócio (Art. 2º da CLT). Em casos específicos de doença grave estigmatizante, a Súmula 443 do TST também protege contra dispensa discriminatória.",
+      "images": [
+        {
+          "basename": "editorial.png",
+          "alt": "Perfil de uma mulher cuja metade do rosto se dissolve em circuitos eletrônicos"
+        }
+      ],
+      "charts": [],
+      "sha256": "eaa101f4ead2d4bed726421f0cc921ff7d3a3d1e568ff7f6c415c26828afc512"
+    },
+    {
+      "id": "editorial-2",
+      "dataPage": "04",
+      "ariaLabel": "Editorial, página 4",
+      "ariaLabelledby": null,
+      "normalizedText": "01.Editorialp. 04 Sem freios legais, a substituição por IA rompe a escada de ascensão profissional e amplia o subemprego. O Fórum Econômico Mundial estima que 47% das tarefas já passam por automação. No Brasil, entre mais de 227 mil desligados sem justa causa no setor de tecnologia, 59,4% tinham ensino superior completo (CAGED); para esse grupo, a FGV IBRE aponta perda real de 16,7% na renda em uma década. Ricardo Antunes chama de uberização e nova servidão digital o destino de muitos expulsos do emprego formal. A PNAD Contínua registra 38 milhões de pessoas na informalidade e 33,9 milhões em vulnerabilidade laboral, entre elas cerca de 21 milhões de subutilizados. Sem reserva financeira, profissionais passam do escritório para jornadas de 12 a 14 horas em aplicativos ou microtarefas mal pagas, sem férias, 13º ou aposentadoria. A resposta exige ação pública em duas frentes. O Congresso, com o MTE e os sindicatos, deve regulamentar os incisos I e XXVII do Art. 7º, retomar a proteção da Convenção 158 da OIT e aprovar um marco contra a automação substitutiva, reunindo propostas como os PLs 1.091/2019 e 2.421/2023. Empresas que adotem IA para eliminar postos deveriam estudar previamente o impacto no emprego, oferecer capacitação remunerada e negociar com os sindicatos. Uma contribuição sobre a automação financiaria a manutenção de renda na transição. MPT e ANPD fiscalizariam painéis de People Analytics e plataformas por auditorias algorítmicas baseadas no Art. 20 da LGPD, com sanções a dispensas abusivas e à negação de direitos previdenciários. O progresso só será justo se quem lucra com a tecnologia também assumir o custo social do descarte.",
+      "images": [
+        {
+          "basename": "justica.png",
+          "alt": "Estátua da Justiça vendada segurando a balança diante de telas digitais"
+        }
+      ],
+      "charts": [],
+      "sha256": "9ca3d95401116befb0085bb385ad4682a8be6e68f10d3b93db974e0c95ad0a77"
+    },
+    {
+      "id": "contexto-1",
+      "dataPage": "05",
+      "ariaLabel": "Contextualização, página 5",
+      "ariaLabelledby": null,
+      "normalizedText": "02.Contextualizaçãop. 05 A ilusão da mente eletrônica Da máquina a vapor ao algoritmo: como a Quarta Revolução Industrial capturou o trabalho intelectual e transformou saberes coletivos em mercadoria privada. As primeiras revoluções industriais automatizaram o esforço físico. Por muito tempo, estudar parecia proteger quem exercia uma profissão intelectual. A Revolução 4.0 rompeu essa fronteira (Estrada, 2022; Oliveira, 2025): a IA generativa alcançou escritórios, análises, redação técnica, criação visual e programação. Matteo Pasquinelli chama atenção para a apropriação do trabalho cristalizado. Modelos de IA não criam conhecimento do zero: aprendem com fóruns, artigos, jurisprudência e código produzido por pessoas, frequentemente sem consentimento ou remuneração. Empresas transformam esse saber coletivo em licenças comerciais que podem substituir os próprios profissionais que ajudaram a construí-lo. Mary Gray denomina de trabalho fantasma a atividade invisível que mantém a IA funcionando: anotação de dados, moderação de conteúdo e correção de respostas. Plataformas como Clickworker e Remotasks distribuem essas microtarefas, muitas vezes por centavos e sem contrato, previdência ou proteção trabalhista. A automação não elimina o esforço humano; torna parte dele menos visível. O que é Trabalho Cristalizado? Formulado pelo teórico Matteo Pasquinelli, o conceito demonstra que a IA não é uma inteligência artificial autônoma, mas a cristalização matemática do saber e da experiência acumulada por milhões de trabalhadores reais ao longo de décadas. O software apenas reorganiza estatisticamente aquilo que seres humanos já produziram e ensinaram à máquina sem receber nada por isso. O que é Trabalho Fantasma? Termo cunhado pela pesquisadora Mary Gray para designar o exército oculto de pessoas que trabalham de casa classificando imagens, corrigindo textos e eliminando conteúdos tóxicos para que os algoritmos pareçam infalíveis. Trata-se de um trabalho humano intensivo, mal pago e desprovido de qualquer proteção trabalhista ou previdenciária.",
+      "images": [],
+      "charts": [],
+      "sha256": "add507d3b362c1becae0c368d3dd25b2b939edc633cb7830c9be44153995afe7"
+    },
+    {
+      "id": "contexto-2",
+      "dataPage": "06",
+      "ariaLabel": "Contextualização, página 6",
+      "ariaLabelledby": null,
+      "normalizedText": "02.Contextualizaçãop. 06 O fim do escudo do diploma A radiografia empírica dos layoffs no Brasil: como o People Analytics e o descarte sistemático transformaram profissionais de alta qualificação em alvos prioritários. No Brasil, a tecnologia deixou de ser sinônimo de estabilidade. Em apenas 18 meses, 227.386 profissionais do setor foram desligados sem justa causa, segundo dados do CAGED compilados pela Universidade Federal de Uberlândia (Barbosa, 2023). O número desmonta o mito de que escolaridade, por si só, protege do desemprego. Parte desses cortes acompanha a expansão de painéis de People Analytics, que medem velocidade de digitação, resolução de chamados e uso de ferramentas de IA. Métricas opacas podem transformar diferenças de desempenho em justificativas vagas, como “falta de adaptação”, para dispensar trabalhadores. A promessa de que a tecnologia sempre criará funções melhores não se cumpre automaticamente. Sem novas vagas formais, profissionais dispensados acabam na informalidade ou em plataformas de entrega e transporte, também geridas por algoritmos. A modernização pode, assim, trocar emprego digno por trabalho precário. Queda real da renda por escolaridade. Fonte: FGV IBRE. Demitidos em tecnologia por escolaridade. Fonte: CAGED / UFU.",
+      "images": [],
+      "charts": [
+        "renda",
+        "escolaridade"
+      ],
+      "sha256": "e14eb958315955237d3957642c141474772b7313cee5842708b6824d046245ef"
+    },
+    {
+      "id": "reportagem-1",
+      "dataPage": "07",
+      "ariaLabel": "Reportagem, página 7",
+      "ariaLabelledby": null,
+      "normalizedText": "03.Reportagemp. 07 Vigiados e descartados Como a implantação de um agente interno de Inteligência Artificial fragmentou equipes de tecnologia, transformou programadores qualificados em alvos de monitoramento e fabricou demissões sob a desculpa de \"falta de adaptação\". Eram quase 21h quando uma mensagem surgiu na tela de Marcos, 27 anos. Ele acabara de corrigir falhas críticas no aplicativo financeiro em que trabalhava havia dois anos e meio. Luis, 34, engenheiro de sistemas experiente e pai de duas crianças, comemorava a estabilidade da plataforma antes do pico de transações do mês. Os dois integravam uma equipe de seis desenvolvedores, habituada a revisar segurança e resolver problemas em conjunto. A rotina mudou quando a diretoria lançou um agente interno de IA generativa para atuar no fluxo diário de trabalho. A promessa era eliminar tarefas repetitivas, não substituir pessoas. A equipe adotou a ferramenta, capaz de completar funções, escrever testes e resumir documentação em segundos. Mas a velocidade de entrega virou argumento para dissolver os grupos de seis. A direção considerou as equipes “inchadas” e reorganizou o setor em duplas isoladas. A suposta “autonomia ágil” reduziu a colaboração: cada dupla passou a validar, sob pressão, um fluxo contínuo de código gerado pela IA. Se dois entregavam o volume antes produzido por seis, a equipe temia que os cortes fossem o próximo passo.",
+      "images": [
+        {
+          "basename": "reportagem.png",
+          "alt": "Programador trabalhando sozinho no notebook à noite, iluminado por uma luminária"
+        }
+      ],
+      "charts": [],
+      "sha256": "1d7a7cedaf75769081d034b88792a99c22a0c5fa80628d416aa68a003a1cfdb5"
+    },
+    {
+      "id": "reportagem-2",
+      "dataPage": "08",
+      "ariaLabel": "Reportagem, página 8",
+      "ariaLabelledby": null,
+      "normalizedText": "03.Reportagemp. 08 A sentença invisível do algoritmo O painel de People Analytics, o desligamento em dez minutos de chamada e a cartilha internacional do corte de custos. Um painel de People Analytics passou a monitorar a equipe sem revelar seus critérios: horas de uso do assistente, sugestões aceitas e tempo entre a resposta da IA e a entrega do código. A experiência de Marcos e Luis virou desvantagem nas métricas. Eles rejeitavam sugestões com erros ou falhas de segurança, reescreviam o código e priorizavam a estabilidade do sistema. O painel, porém, valorizava rapidez e aceitação das respostas da máquina. Em uma terça-feira, cada um recebeu a demissão numa chamada de menos de dez minutos, sob a justificativa de “falta de adaptação” à cultura de agilidade com IA. A equipe original de seis foi reduzida a quatro profissionais em duas duplas. Para os entrevistados, a explicação encobria um corte de custos já planejado. O caso ecoa uma lógica empresarial mais ampla: a Klarna substituiu atividades de 700 profissionais com um assistente virtual, e a Meta anunciou, em maio de 2026, corte de cerca de 8 mil postos com a automação entre os argumentos. Sem reserva financeira, a recolocação pode ceder lugar ao trabalho em aplicativos de transporte e entrega, em jornadas que chegam a 14 horas sob outro algoritmo. Os ganhos da automação ficam com as empresas; seus riscos recaem sobre quem construiu a tecnologia. O que é Automação Substitutiva? Conceito formulado pelos economistas Daron Acemoglu e Pascual Restrepo (MIT) para diferenciar dois usos da tecnologia: Automação Complementar: A máquina apoia o trabalhador, elevando sua capacidade criativa e gerando novas ocupações qualificadas. Automação Substitutiva: A empresa investe no software com o único propósito de eliminar salários, tributos e encargos trabalhistas, destruindo postos de trabalho e empobrecendo a sociedade sem gerar valor real.",
+      "images": [],
+      "charts": [],
+      "sha256": "760790ad8628974956c8edb5c594f301c06ddefb21e5ba770e57c6ca1ccb8ecd"
+    },
+    {
+      "id": "direito-1",
+      "dataPage": "09",
+      "ariaLabel": "Direito em Xeque, página 9",
+      "ariaLabelledby": null,
+      "normalizedText": "O vazio constitucional 04.Direito em Xequep. 09 A Constituição de 1988 prometeu proteção contra a automação (Art. 7º, XXVII) e a despedida arbitrária (inciso I). Quase quatro décadas depois, a primeira garantia segue sem regulamentação. Em 2025, o STF reconheceu a omissão do Congresso e lhe deu 24 meses para legislar. Até lá, persiste a dificuldade de transformar a promessa constitucional em proteção efetiva (Cunha, 2024). O vazio se agrava com a Convenção 158 da OIT, que limita dispensas sem motivo justificado e prevê consulta e medidas de realocação. Ratificada em 1996, ela foi denunciada meses depois por decreto presidencial, sem aprovação do Legislativo (Caliendo & Podolan, 2024). Após 27 anos de tramitação da ADI 1625, concluída em 2024, o STF exigiu participação do Congresso em futuras denúncias de tratados, mas preservou o decreto de 1996 por segurança jurídica. A proteção da convenção, portanto, não foi restabelecida. No Tema 638, o STF exigiu diálogo prévio com sindicatos antes de dispensas em massa, sem obrigar as partes a alcançar acordo. A medida abre uma negociação, mas não impede, sozinha, cortes coletivos ligados à automação. Inércia diante da automação. Fonte: Constituição de 1988; STF. O que diz a Constituição? Constituição Federal de 1988 — Artigo 7º: \"São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social: I - Relação de emprego protegida contra despedida arbitrária ou sem justa causa [...];* XXVII - Proteção em face da automação, na forma da lei.\"*",
+      "images": [
+        {
+          "basename": "martelo.png",
+          "alt": "Martelo de juiz diante da bandeira do Brasil"
+        }
+      ],
+      "charts": [
+        "inercia"
+      ],
+      "sha256": "0c8d5b766251a1a6afa684bb03da987a1ea8475cfc3b58d035b808d56a648a53"
+    },
+    {
+      "id": "direito-2",
+      "dataPage": "10",
+      "ariaLabel": "Direito em Xeque, página 10",
+      "ariaLabelledby": null,
+      "normalizedText": "04.Direito em Xequep. 10 Armas legais contra o algoritmo Como a LGPD, a CLT e o Tribunal Superior do Trabalho oferecem escudos práticos e reais para contestar demissões automatizadas e abusos de vigilância digital. Mesmo sem uma lei específica de proteção contra a automação, trabalhadores podem contestar dispensas baseadas em IA ou painéis opacos de produtividade com instrumentos já existentes na legislação. O Artigo 20 da LGPD permite solicitar revisão de decisões tomadas unicamente por tratamento automatizado que afetem interesses do titular, inclusive o perfil profissional. Também assegura informações claras sobre os critérios usados, resguardados os segredos comercial e industrial. Uma dispensa baseada em pontuação de People Analytics pode, portanto, ser questionada quando faltam transparência e possibilidade de revisão. O Artigo 2º da CLT atribui ao empregador os riscos da atividade econômica. Implantar IA sem preparar a equipe e depois invocar “falta de adaptação” para dispensá-la pode gerar contestação judicial, inclusive pedidos de reparação, conforme as circunstâncias do caso. Por fim, uma ferramenta automatizada não torna legítima uma dispensa discriminatória. O trabalhador pode reunir provas e buscar reparação na Justiça do Trabalho. A Súmula 443 do TST trata especificamente da presunção de discriminação na dispensa de pessoa com HIV ou outra doença grave que provoque estigma ou preconceito. Desligamentos em TI por região — 227.386 desligamentos sem justa causa, janeiro de 2022 a julho de 2023. Fonte: Barbosa (2023), dissertação UFU, Tabela 1, p. 43, CAGED. Ações trabalhistas citando IA e LGPD. Fonte: estimativa baseada em jurisprudência TRT/TST. Fui demitido por IA: como me defender? Exija a Abertura dos Critérios (Art. 20 da LGPD); Comprove a Falta de Treinamento (Art. 2º da CLT); Documente metas abusivas e indícios de discriminação; a Súmula 443 vale para situações específicas.",
+      "images": [],
+      "charts": [
+        "regioes",
+        "acoes"
+      ],
+      "sha256": "43f1886360efea0cfb22b3f26f13d24d8a637eabe701811a42085fcf6973734d"
+    },
+    {
+      "id": "subemprego",
+      "dataPage": "11",
+      "ariaLabel": "O Labirinto do Subemprego, página 11",
+      "ariaLabelledby": null,
+      "normalizedText": "05.O Labirinto do Subempregop. 11 A escada quebrada Como o enxugamento das vagas de nível júnior destrói a formação de novas gerações e empurra uma massa de diplomados para a subutilização crônica no Brasil. A carreira costumava começar em funções de entrada: assistentes, estagiários e programadores juniores aprendiam com colegas experientes até assumir tarefas complexas. Ao transferir relatórios, análises iniciais e código rotineiro para a IA, empresas reduzem esses primeiros degraus e dificultam o ingresso de novos profissionais. Relatórios da OIT e pesquisas do CESIT/Unicamp alertam para esse apagão geracional: sem vaga júnior, recém-formados não adquirem a experiência exigida nas posições seniores. O diploma, obtido após anos de investimento, passa a disputar espaço com ferramentas digitais baratas. A PNAD Contínua do IBGE dimensiona o problema: 33,9 milhões de pessoas em vulnerabilidade laboral, incluindo 20,9 milhões de trabalhadores subutilizados. São pessoas que gostariam de trabalhar mais horas, não conseguem vaga compatível ou desistiram de procurar emprego. Desproteção social no Brasil. Fonte: IBGE / PNAD Contínua. O que é “Subutilização da Força de Trabalho”? Métrica oficial do IBGE que vai muito além da taxa clássica de desemprego. Ela abrange trabalhadores que estão subocupados (fazem bicos com menos horas do que gostariam e precisam), pessoas disponíveis que não encontram vagas compatíveis com sua formação e a população \"desalentada\" — profissionais qualificados que, após meses de silêncio e rejeição algorítmica, simplesmente desistiram de enviar currículos para vagas corporativas.",
+      "images": [],
+      "charts": [
+        "desprotecao"
+      ],
+      "sha256": "d411f58722430f8985c5af71dafd110a05198bbbbf6a240fbbc9a6757649f4c7"
+    },
+    {
+      "id": "subemprego-2",
+      "dataPage": "12",
+      "ariaLabel": "O Labirinto do Subemprego, página 12",
+      "ariaLabelledby": null,
+      "normalizedText": "A nova servidão digital 05.O Labirinto do Subempregop. 12 Ricardo Antunes descreve como “uberização” e “nova servidão digital” a passagem do emprego formal para plataformas que transferem custos e riscos aos trabalhadores. Sem reserva para uma longa transição, muitos demitidos recorrem a aplicativos de transporte, entrega ou microtarefas, inclusive para treinar sistemas de IA. O profissional dispensado por um algoritmo no escritório pode passar a trabalhar de 12 a 14 horas nas ruas, sob comandos de outro algoritmo. Combustível, manutenção, internet e perdas por acidente ficam por sua conta. Segundo o módulo de plataformas digitais da PNAD Contínua, 77% dos trabalhadores de aplicativo não contribuem para o INSS, ficando sem a proteção previdenciária associada à contribuição. Mesmo quando empresas reintroduzem trabalho humano para corrigir falhas da IA, nem sempre restauram contratos formais. Assim, o lucro da automação se concentra, enquanto seus riscos sociais se espalham. Previdência no trabalho por aplicativo. Fonte: IBGE / PNAD Contínua.",
+      "images": [
+        {
+          "basename": "uber.png",
+          "alt": "Mão segurando smartphone com o aplicativo do Uber aberto em meio ao trânsito"
+        }
+      ],
+      "charts": [
+        "previdencia"
+      ],
+      "sha256": "5827428a921c739caf06445ddea31d58e4e683b946d6fefb7ea74d5873aff194"
+    },
+    {
+      "id": "intervencao",
+      "dataPage": "13",
+      "ariaLabel": "Proposta de Intervenção, página 13",
+      "ariaLabelledby": null,
+      "normalizedText": "06.Proposta de Intervençãop. 13 Além do lucro dos algoritmos Como o Estado brasileiro pode conter a destruição predatória de empregos, tributar a tecnologia substitutiva e garantir dignidade e direitos na era digital. Frear o descarte de trabalhadores exige ação pública em duas frentes: regras econômicas e trabalhistas para limitar demissões arbitrárias; fiscalização para conter a vigilância algorítmica e a precarização. Os ganhos privados da tecnologia não podem transferir seus custos sociais ao SUS e à seguridade. O Congresso, em diálogo com o MTE e os sindicatos, deve aprovar um marco contra a automação substitutiva, a partir dos PLs 1.091/2019 e 2.421/2023. A proposta busca regulamentar o Art. 7º, incisos I e XXVII, e retomar a proteção prevista na Convenção 158 da OIT. Antes de implantar IA que substitua postos, médias e grandes empresas apresentariam um Estudo Prévio de Impacto sobre o Emprego e ofereceriam capacitação remunerada durante a jornada. Uma Contribuição Social sobre Automação Substitutiva financiaria um Fundo Público de Transição Justa, destinado à requalificação e à manutenção de renda na recolocação (Cunha, 2024). MPT e ANPD fiscalizariam sistemas de People Analytics por auditorias que permitam examinar seus critérios, respeitados os limites legais, e apurar dispensas abusivas. Para aplicativos, a proposta prevê contribuição patronal ao INSS e seguro contra acidentes proporcional às horas conectadas. O objetivo é fazer quem lucra com a automação assumir também a responsabilidade pela transição de quem trabalha. Tarefas realizadas por tecnologia: 38% em 2020 e 47% em 2025 (projeção do relatório de 2020). Fonte: Future of Jobs Report 2020 (WEF), citado em Caliendo & Podolan (2024), p. 9. Destinação proposta do Fundo Social. Marco Legal: impacto projetado.",
+      "images": [],
+      "charts": [
+        "tarefas",
+        "fundo",
+        "marco"
+      ],
+      "sha256": "ec1ed5a3d365e574cf62810f2146bc68fb5f20bfda4fb27eb83524616bc21a27"
+    },
+    {
+      "id": "expediente",
+      "dataPage": "14",
+      "ariaLabel": "Expediente e Integrantes, página 14",
+      "ariaLabelledby": null,
+      "normalizedText": "07.Expediente e Integrantesp. 14 O amanhã que escolhemos construir EXPEDIENTE | EDITORA 4:04 Revista Código Vermelho — Edição nº 1 | Ano 1 Publicado em 18 de outubro de 2026 | São Paulo – SP Instituição: Instituto J&F — Germinare Tech Disciplinas: Língua Portuguesa, Sociologia, Língua Inglesa e UX. CORPO EDITORIAL E DIVISÃO DE FUNÇÕES REDAÇÃO & JORNALISMO INVESTIGATIVO Responsáveis pela condução das entrevistas com Marcos e Luis, apuração dos bastidores corporativos e redação da Reportagem e Contextualização. Rogerio Buscariolo da Silva — rogerio.silva@institutojef.org.br Noé Rodrigo Carrion Cusiquispe — noe.cusiquispe@institutojef.org.br Enzo Casares Lanzani Santos — enzo.santos@institutojef.org.br PESQUISA TEÓRICA & DOSSIÊ JURÍDICO-SOCIOLÓGICO Responsáveis pelo levantamento bibliográfico (Pasquinelli, Antunes, Acemoglu), análise da jurisprudência do STF (ADI 1625 / OIT 158) e compilação dos microdados do CAGED, FGV IBRE e IBGE. Pedro Macêdo Silva — pedro.macedo@institutojef.org.br Mateus Carlos da Silva Pereira — mateus.pereira@institutojef.org.br Lucas de Oliveira Candido dos Santos — lucas.candido@institutojef.org.br Enzo Casares Lanzani Santos — enzo.santos@institutojef.org.br DESIGN VISUAL, INFOGRAFIA & DIAGRAMAÇÃO Responsáveis pela criação da identidade visual, capa conceitual, geração dos gráficos em alta resolução e diagramação do layout no Figma. Rogerio Buscariolo da Silva — rogerio.silva@institutojef.org.br Noé Rodrigo Carrion Cusiquispe — noe.cusiquispe@institutojef.org.br AGRADECIMENTOS Agradecemos aos desenvolvedores que compartilharam suas histórias e vivências profissionais sob a condição de anonimato, e aos professores do Instituto J&F pelo estímulo contínuo ao pensamento crítico e à sociologia transformadora. Enzo Casares Lucas Candido Mateus Pereira Noé Carrion Pedro Macêdo Rogerio Buscariolo INTEGRANTES",
+      "images": [
+        {
+          "basename": "enzo-casares-original.png",
+          "alt": "Foto de Enzo Casares"
+        },
+        {
+          "basename": "lucas-candido-original.png",
+          "alt": "Foto de Lucas Candido"
+        },
+        {
+          "basename": "mateus-pereira-original.png",
+          "alt": "Foto de Mateus Pereira"
+        },
+        {
+          "basename": "noe-carrion-original.png",
+          "alt": "Foto de Noé Carrion"
+        },
+        {
+          "basename": "pedro-macedo-original.png",
+          "alt": "Foto de Pedro Macêdo"
+        },
+        {
+          "basename": "rogerio-buscariolo-original.png",
+          "alt": "Foto de Rogerio Buscariolo"
+        }
+      ],
+      "charts": [],
+      "sha256": "e81bd7e05b8d2de1d0d844bd8b5fae454f4fe5c47ace766b94f207f58bf45165"
+    },
+    {
+      "id": "referencias",
+      "dataPage": "15",
+      "ariaLabel": "Referências Bibliográficas, página 15",
+      "ariaLabelledby": null,
+      "normalizedText": "08.Referências Bibliográficasp. 15 ACEMOGLU, Daron; RESTREPO, Pascual. The Race between Man and Machine: Implications of Technology for Growth, Factor Shares, and Employment. American Economic Review, v. 108, n. 6, p. 1488-1542, jun. 2018. ACEMOGLU, Daron; RESTREPO, Pascual. Robots and Jobs: Evidence from US Labor Markets. Journal of Political Economy, Chicago, v. 128, n. 6, p. 2188-2244, 2020. ANTUNES, Ricardo. O Privilégio da Servidão: o novo proletariado de serviços na era digital. 1. ed. São Paulo: Boitempo, 2018. ANTUNES, Ricardo (Org.). Uberização, trabalho digital e Indústria 4.0. 1. ed. São Paulo: Boitempo, 2020. AZEVEDO, Beatriz Regina Zago de. Emprego, desemprego e subemprego: uma revisão da literatura crítica. Ensaios FEE, Porto Alegre, v. 6, n. 1, p. 155-168, 1985. BARBOSA, Munyse Barros. Mercado de Trabalho em Empresas de Tecnologia no Brasil: desafios e oportunidades. 2023. 66 f. Dissertação (Mestrado Profissional em Gestão Organizacional) — Faculdade de Gestão e Negócios, Universidade Federal de Uberlândia (UFU), Uberlândia, 2023. BRASIL. [Constituição (1988)]. Constituição da República Federativa do Brasil de 1988. Brasília, DF: Presidência da República. Disponível em: planalto.gov.br. Acesso em: 18 out. 2026. BRASIL. Decreto-Lei nº 5.452, de 1º de maio de 1943. Aprova a Consolidação das Leis do Trabalho (CLT). [Artigo 2º - Princípio da Alteridade]. Brasília, DF: Presidência da República, 1943. BRASIL. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). [Artigo 20 - Revisão humana de decisões automatizadas]. Brasília, DF: Presidência da República, 2018. BRASIL. Câmara dos Deputados. Projeto de Lei nº 1.091/2019. Dispõe sobre a proteção do trabalhador em face da automação e dá outras providências. Brasília, DF: Câmara dos Deputados, 2019. BRASIL. Câmara dos Deputados. Projeto de Lei nº 2.421/2023. Institui a Política Nacional de Mitigação dos Impactos da Inteligência Artificial sobre o Emprego e a Tributação sobre Automação Substitutiva. Brasília, DF: Câmara dos Deputados, 2023. BRASIL. Ministério do Trabalho e Emprego (MTE). Cadastro Geral de Empregados e Desempregados (CAGED): Microdados sobre movimentação e desligamentos de trabalhadores no setor de Tecnologia da Informação. Brasília, DF: MTE, 2022-2023. CALIENDO, Paulo; PODOLAN, Plínio Gevezier. Desemprego em massa pela tecnologia: impacto ambiental do trabalho e desenvolvimento insustentável. Veredas do Direito, Belo Horizonte, v. 21, e212622, p. 1-23, 2024. CESIT — Centro de Estudos Sindicais e de Economia do Trabalho. As novas e velhas máscaras da terceirização no capitalismo contemporâneo. Carta Social e do Trabalho, Campinas: Instituto de Economia da Unicamp, n. 34, p. i-iii, jul./dez. 2016. CUNHA, Isaac Rodrigues. Tributação, Desemprego Estrutural e Tecnologia: a Proteção Constitucional do Trabalhador em Face da Automação e a Figura do \"Robô Contribuinte\". Revista Interagir, Fortaleza: Centro Universitário Christus, Ano XIX, v. 19, n. 127, Edição Suplementar, p. 49-52, jul./ago./set. 2024. ESTRADA, Manuel Martín Pino. Inteligência Artificial e Desemprego. Revista Direito & TI — Debates Contemporâneos, Porto Alegre, n. 1, p. 1-6, 2022. FGV IBRE — Instituto Brasileiro de Economia da Fundação Getulio Vargas. Evolução do Rendimento Real no Brasil por Nível de Instrução e Escolaridade (2014-2024). Rio de Janeiro: FGV, 2023. GRAY, Mary L.; SURI, Siddharth. Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass. Boston: Houghton Mifflin Harcourt, 2019. IBGE — Instituto Brasileiro de Geografia e Estatística. Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua): Módulo de Teletrabalho e Plataformas Digitais. Rio de Janeiro: IBGE, 2022-2023. OLIVEIRA, Thainá Santos de. Impacto da Inteligência Artificial e da Automação no Mercado de Trabalho. Revista Científica ACERTTE, v. 5, n. 1, e51216, p. 1-10, jan. 2025. ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT). Convenção nº 158 sobre o Término da Relação de Trabalho por Iniciativa do Empregador. Genebra: OIT, 1982. PASQUINELLI, Matteo. The Eye of the Master: A Social History of Artificial Intelligence. 1. ed. London: Verso Books, 2023. SUPREMO TRIBUNAL FEDERAL (STF). Ação Direta de Inconstitucionalidade nº 1.625/DF. Denúncia da Convenção nº 158 da OIT por decreto presidencial. Relator: Min. Maurício Corrêa. Redator do acórdão: Min. Dias Toffoli. Julgado em 02 jun. 2023. Brasília, DF: STF, 2023. SUPREMO TRIBUNAL FEDERAL (STF). Tema nº 638 da Repercussão Geral (Recurso Extraordinário nº 999.435/SP). A intervenção sindical prévia é exigência procedimental imprescindível para a dispensa em massa. Relator: Min. Edson Fachin. Julgado em 08 jun. 2022. Brasília, DF: STF, 2022. TRIBUNAL SUPERIOR DO TRABALHO (TST). Súmula nº 443. Dispensa discriminatória. Presunção. Empregado portador de doença grave ou estigma. Reintegração de posse e indenização. Brasília, DF: TST, 2012. WORLD ECONOMIC FORUM (WEF). The Future of Jobs Report 2023. Geneva: World Economic Forum, 2023.",
+      "images": [],
+      "charts": [],
+      "sha256": "e8d43886ef7f1970919135efe79878f4180aa656d64f4614d7ac76c991541c75"
+    }
+  ],
+  "thematicGroups": [
+    {
+      "group": "capa",
+      "sectionIds": [
+        "capa"
+      ],
+      "normalizedText": "1º Edição Editora 4:04 Edição 1 - ano 1 - nº 1 18 de outubro de 2026 Trabalho descartável: Até quando vamos fingir que isso é progresso?",
+      "images": [
+        {
+          "basename": "capa-foto.jpg",
+          "alt": "Executivo de tecnologia retratado como metade humano e metade máquina"
+        },
+        {
+          "basename": "codigo-vermelho-logo.png",
+          "alt": "Código Vermelho"
+        },
+        {
+          "basename": "editora-404-logo.png",
+          "alt": "Editora 4:04"
+        }
+      ],
+      "imageCount": 3,
+      "chartCount": 0,
+      "sha256": "25edc0257ba88ddcfcfeb6c696ec4ec53fe0838ecbc9bb50fdab5340eef7adf3"
+    },
+    {
+      "group": "sumario",
+      "sectionIds": [
+        "sumario"
+      ],
+      "normalizedText": "Código Vermelho Sumário Nesta edição Até quando vamos fingir que isso é progresso? 01.Editorialp. 03-04 02.Contextualizaçãop. 05-06 03.Reportagemp. 07-08 04.Direito em Xequep. 09-10 05.O Labirinto do Subempregop. 11-12 06.Proposta de Intervençãop. 13 07.Expediente e Integrantesp. 14 08.Referências Bibliográficasp. 15",
+      "images": [
+        {
+          "basename": "sumario.png",
+          "alt": "Robôs sentados enquanto um trabalhador sai carregando uma caixa com seus pertences"
+        }
+      ],
+      "imageCount": 1,
+      "chartCount": 0,
+      "sha256": "a1a1135795864392fb7b53055f9a2780ef6738f4150f8db358d95ccd214a0aa3"
+    },
+    {
+      "group": "editorial",
+      "sectionIds": [
+        "editorial-1",
+        "editorial-2"
+      ],
+      "normalizedText": "Edito rial 01.Editorialp. 03 Nenhuma linha de programação nasce sozinha. Por trás das respostas da IA está o trabalho de milhões de pessoas que o mercado agora tenta descartar. Para Matteo Pasquinelli, a tecnologia é trabalho cristalizado: sistemas treinados com décadas de textos, códigos e saberes humanos, muitas vezes sem remuneração a seus criadores. Essa inteligência coletiva passa, então, a servir a cortes de vagas e salários. No Brasil, a demora em regulamentar a proteção constitucional contra a automação facilita o descarte de profissionais qualificados. Esta edição expõe esse mecanismo e os direitos a que o trabalhador pode recorrer. A automação substitutiva, descrita por Daron Acemoglu e Pascual Restrepo, troca equipes por software para reduzir custos, em vez de apoiar trabalhadores e criar funções. A revista apresenta os casos da Klarna, que substituiu atividades de 700 profissionais, e da Meta, que anunciou corte de cerca de 8 mil postos sob o argumento da automação. No Brasil, agentes de IA e painéis de produtividade também acompanham trabalhadores e podem servir de pretexto para dispensas por suposta “falta de adaptação”. A Constituição de 1988 prevê proteção contra a automação e a despedida arbitrária (Art. 7º, XXVII e I), mas o Congresso ainda não regulamentou essas garantias. O STF reconheceu a irregularidade na denúncia da Convenção 158 da OIT, sem restabelecer seus efeitos, e exige diálogo sindical prévio nas dispensas coletivas, não um acordo. Ainda assim, o trabalhador pode questionar decisões automatizadas pela LGPD (Art. 20) e invocar a responsabilidade do empregador pelos riscos do negócio (Art. 2º da CLT). Em casos específicos de doença grave estigmatizante, a Súmula 443 do TST também protege contra dispensa discriminatória. 01.Editorialp. 04 Sem freios legais, a substituição por IA rompe a escada de ascensão profissional e amplia o subemprego. O Fórum Econômico Mundial estima que 47% das tarefas já passam por automação. No Brasil, entre mais de 227 mil desligados sem justa causa no setor de tecnologia, 59,4% tinham ensino superior completo (CAGED); para esse grupo, a FGV IBRE aponta perda real de 16,7% na renda em uma década. Ricardo Antunes chama de uberização e nova servidão digital o destino de muitos expulsos do emprego formal. A PNAD Contínua registra 38 milhões de pessoas na informalidade e 33,9 milhões em vulnerabilidade laboral, entre elas cerca de 21 milhões de subutilizados. Sem reserva financeira, profissionais passam do escritório para jornadas de 12 a 14 horas em aplicativos ou microtarefas mal pagas, sem férias, 13º ou aposentadoria. A resposta exige ação pública em duas frentes. O Congresso, com o MTE e os sindicatos, deve regulamentar os incisos I e XXVII do Art. 7º, retomar a proteção da Convenção 158 da OIT e aprovar um marco contra a automação substitutiva, reunindo propostas como os PLs 1.091/2019 e 2.421/2023. Empresas que adotem IA para eliminar postos deveriam estudar previamente o impacto no emprego, oferecer capacitação remunerada e negociar com os sindicatos. Uma contribuição sobre a automação financiaria a manutenção de renda na transição. MPT e ANPD fiscalizariam painéis de People Analytics e plataformas por auditorias algorítmicas baseadas no Art. 20 da LGPD, com sanções a dispensas abusivas e à negação de direitos previdenciários. O progresso só será justo se quem lucra com a tecnologia também assumir o custo social do descarte.",
+      "images": [
+        {
+          "basename": "editorial.png",
+          "alt": "Perfil de uma mulher cuja metade do rosto se dissolve em circuitos eletrônicos"
+        },
+        {
+          "basename": "justica.png",
+          "alt": "Estátua da Justiça vendada segurando a balança diante de telas digitais"
+        }
+      ],
+      "imageCount": 2,
+      "chartCount": 0,
+      "sha256": "20c7b497a23a21c62b61fe0b33cb1e3df366bbe163694a19269030d3a8d56291"
+    },
+    {
+      "group": "contexto",
+      "sectionIds": [
+        "contexto-1",
+        "contexto-2"
+      ],
+      "normalizedText": "02.Contextualizaçãop. 05 A ilusão da mente eletrônica Da máquina a vapor ao algoritmo: como a Quarta Revolução Industrial capturou o trabalho intelectual e transformou saberes coletivos em mercadoria privada. As primeiras revoluções industriais automatizaram o esforço físico. Por muito tempo, estudar parecia proteger quem exercia uma profissão intelectual. A Revolução 4.0 rompeu essa fronteira (Estrada, 2022; Oliveira, 2025): a IA generativa alcançou escritórios, análises, redação técnica, criação visual e programação. Matteo Pasquinelli chama atenção para a apropriação do trabalho cristalizado. Modelos de IA não criam conhecimento do zero: aprendem com fóruns, artigos, jurisprudência e código produzido por pessoas, frequentemente sem consentimento ou remuneração. Empresas transformam esse saber coletivo em licenças comerciais que podem substituir os próprios profissionais que ajudaram a construí-lo. Mary Gray denomina de trabalho fantasma a atividade invisível que mantém a IA funcionando: anotação de dados, moderação de conteúdo e correção de respostas. Plataformas como Clickworker e Remotasks distribuem essas microtarefas, muitas vezes por centavos e sem contrato, previdência ou proteção trabalhista. A automação não elimina o esforço humano; torna parte dele menos visível. O que é Trabalho Cristalizado? Formulado pelo teórico Matteo Pasquinelli, o conceito demonstra que a IA não é uma inteligência artificial autônoma, mas a cristalização matemática do saber e da experiência acumulada por milhões de trabalhadores reais ao longo de décadas. O software apenas reorganiza estatisticamente aquilo que seres humanos já produziram e ensinaram à máquina sem receber nada por isso. O que é Trabalho Fantasma? Termo cunhado pela pesquisadora Mary Gray para designar o exército oculto de pessoas que trabalham de casa classificando imagens, corrigindo textos e eliminando conteúdos tóxicos para que os algoritmos pareçam infalíveis. Trata-se de um trabalho humano intensivo, mal pago e desprovido de qualquer proteção trabalhista ou previdenciária. 02.Contextualizaçãop. 06 O fim do escudo do diploma A radiografia empírica dos layoffs no Brasil: como o People Analytics e o descarte sistemático transformaram profissionais de alta qualificação em alvos prioritários. No Brasil, a tecnologia deixou de ser sinônimo de estabilidade. Em apenas 18 meses, 227.386 profissionais do setor foram desligados sem justa causa, segundo dados do CAGED compilados pela Universidade Federal de Uberlândia (Barbosa, 2023). O número desmonta o mito de que escolaridade, por si só, protege do desemprego. Parte desses cortes acompanha a expansão de painéis de People Analytics, que medem velocidade de digitação, resolução de chamados e uso de ferramentas de IA. Métricas opacas podem transformar diferenças de desempenho em justificativas vagas, como “falta de adaptação”, para dispensar trabalhadores. A promessa de que a tecnologia sempre criará funções melhores não se cumpre automaticamente. Sem novas vagas formais, profissionais dispensados acabam na informalidade ou em plataformas de entrega e transporte, também geridas por algoritmos. A modernização pode, assim, trocar emprego digno por trabalho precário. Queda real da renda por escolaridade. Fonte: FGV IBRE. Demitidos em tecnologia por escolaridade. Fonte: CAGED / UFU.",
+      "images": [],
+      "imageCount": 0,
+      "chartCount": 2,
+      "sha256": "c8d8edc05ba99a2bd45ebe9aa08bdbcba4778ac745e371dcd6ceccef05d9865f"
+    },
+    {
+      "group": "reportagem",
+      "sectionIds": [
+        "reportagem-1",
+        "reportagem-2"
+      ],
+      "normalizedText": "03.Reportagemp. 07 Vigiados e descartados Como a implantação de um agente interno de Inteligência Artificial fragmentou equipes de tecnologia, transformou programadores qualificados em alvos de monitoramento e fabricou demissões sob a desculpa de \"falta de adaptação\". Eram quase 21h quando uma mensagem surgiu na tela de Marcos, 27 anos. Ele acabara de corrigir falhas críticas no aplicativo financeiro em que trabalhava havia dois anos e meio. Luis, 34, engenheiro de sistemas experiente e pai de duas crianças, comemorava a estabilidade da plataforma antes do pico de transações do mês. Os dois integravam uma equipe de seis desenvolvedores, habituada a revisar segurança e resolver problemas em conjunto. A rotina mudou quando a diretoria lançou um agente interno de IA generativa para atuar no fluxo diário de trabalho. A promessa era eliminar tarefas repetitivas, não substituir pessoas. A equipe adotou a ferramenta, capaz de completar funções, escrever testes e resumir documentação em segundos. Mas a velocidade de entrega virou argumento para dissolver os grupos de seis. A direção considerou as equipes “inchadas” e reorganizou o setor em duplas isoladas. A suposta “autonomia ágil” reduziu a colaboração: cada dupla passou a validar, sob pressão, um fluxo contínuo de código gerado pela IA. Se dois entregavam o volume antes produzido por seis, a equipe temia que os cortes fossem o próximo passo. 03.Reportagemp. 08 A sentença invisível do algoritmo O painel de People Analytics, o desligamento em dez minutos de chamada e a cartilha internacional do corte de custos. Um painel de People Analytics passou a monitorar a equipe sem revelar seus critérios: horas de uso do assistente, sugestões aceitas e tempo entre a resposta da IA e a entrega do código. A experiência de Marcos e Luis virou desvantagem nas métricas. Eles rejeitavam sugestões com erros ou falhas de segurança, reescreviam o código e priorizavam a estabilidade do sistema. O painel, porém, valorizava rapidez e aceitação das respostas da máquina. Em uma terça-feira, cada um recebeu a demissão numa chamada de menos de dez minutos, sob a justificativa de “falta de adaptação” à cultura de agilidade com IA. A equipe original de seis foi reduzida a quatro profissionais em duas duplas. Para os entrevistados, a explicação encobria um corte de custos já planejado. O caso ecoa uma lógica empresarial mais ampla: a Klarna substituiu atividades de 700 profissionais com um assistente virtual, e a Meta anunciou, em maio de 2026, corte de cerca de 8 mil postos com a automação entre os argumentos. Sem reserva financeira, a recolocação pode ceder lugar ao trabalho em aplicativos de transporte e entrega, em jornadas que chegam a 14 horas sob outro algoritmo. Os ganhos da automação ficam com as empresas; seus riscos recaem sobre quem construiu a tecnologia. O que é Automação Substitutiva? Conceito formulado pelos economistas Daron Acemoglu e Pascual Restrepo (MIT) para diferenciar dois usos da tecnologia: Automação Complementar: A máquina apoia o trabalhador, elevando sua capacidade criativa e gerando novas ocupações qualificadas. Automação Substitutiva: A empresa investe no software com o único propósito de eliminar salários, tributos e encargos trabalhistas, destruindo postos de trabalho e empobrecendo a sociedade sem gerar valor real.",
+      "images": [
+        {
+          "basename": "reportagem.png",
+          "alt": "Programador trabalhando sozinho no notebook à noite, iluminado por uma luminária"
+        }
+      ],
+      "imageCount": 1,
+      "chartCount": 0,
+      "sha256": "8d5ea5faa9a43c18bb70b86824c00795a47915f410596f95ab751d8e8de8e22b"
+    },
+    {
+      "group": "direito",
+      "sectionIds": [
+        "direito-1",
+        "direito-2"
+      ],
+      "normalizedText": "O vazio constitucional 04.Direito em Xequep. 09 A Constituição de 1988 prometeu proteção contra a automação (Art. 7º, XXVII) e a despedida arbitrária (inciso I). Quase quatro décadas depois, a primeira garantia segue sem regulamentação. Em 2025, o STF reconheceu a omissão do Congresso e lhe deu 24 meses para legislar. Até lá, persiste a dificuldade de transformar a promessa constitucional em proteção efetiva (Cunha, 2024). O vazio se agrava com a Convenção 158 da OIT, que limita dispensas sem motivo justificado e prevê consulta e medidas de realocação. Ratificada em 1996, ela foi denunciada meses depois por decreto presidencial, sem aprovação do Legislativo (Caliendo & Podolan, 2024). Após 27 anos de tramitação da ADI 1625, concluída em 2024, o STF exigiu participação do Congresso em futuras denúncias de tratados, mas preservou o decreto de 1996 por segurança jurídica. A proteção da convenção, portanto, não foi restabelecida. No Tema 638, o STF exigiu diálogo prévio com sindicatos antes de dispensas em massa, sem obrigar as partes a alcançar acordo. A medida abre uma negociação, mas não impede, sozinha, cortes coletivos ligados à automação. Inércia diante da automação. Fonte: Constituição de 1988; STF. O que diz a Constituição? Constituição Federal de 1988 — Artigo 7º: \"São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social: I - Relação de emprego protegida contra despedida arbitrária ou sem justa causa [...];* XXVII - Proteção em face da automação, na forma da lei.\"* 04.Direito em Xequep. 10 Armas legais contra o algoritmo Como a LGPD, a CLT e o Tribunal Superior do Trabalho oferecem escudos práticos e reais para contestar demissões automatizadas e abusos de vigilância digital. Mesmo sem uma lei específica de proteção contra a automação, trabalhadores podem contestar dispensas baseadas em IA ou painéis opacos de produtividade com instrumentos já existentes na legislação. O Artigo 20 da LGPD permite solicitar revisão de decisões tomadas unicamente por tratamento automatizado que afetem interesses do titular, inclusive o perfil profissional. Também assegura informações claras sobre os critérios usados, resguardados os segredos comercial e industrial. Uma dispensa baseada em pontuação de People Analytics pode, portanto, ser questionada quando faltam transparência e possibilidade de revisão. O Artigo 2º da CLT atribui ao empregador os riscos da atividade econômica. Implantar IA sem preparar a equipe e depois invocar “falta de adaptação” para dispensá-la pode gerar contestação judicial, inclusive pedidos de reparação, conforme as circunstâncias do caso. Por fim, uma ferramenta automatizada não torna legítima uma dispensa discriminatória. O trabalhador pode reunir provas e buscar reparação na Justiça do Trabalho. A Súmula 443 do TST trata especificamente da presunção de discriminação na dispensa de pessoa com HIV ou outra doença grave que provoque estigma ou preconceito. Desligamentos em TI por região — 227.386 desligamentos sem justa causa, janeiro de 2022 a julho de 2023. Fonte: Barbosa (2023), dissertação UFU, Tabela 1, p. 43, CAGED. Ações trabalhistas citando IA e LGPD. Fonte: estimativa baseada em jurisprudência TRT/TST. Fui demitido por IA: como me defender? Exija a Abertura dos Critérios (Art. 20 da LGPD); Comprove a Falta de Treinamento (Art. 2º da CLT); Documente metas abusivas e indícios de discriminação; a Súmula 443 vale para situações específicas.",
+      "images": [
+        {
+          "basename": "martelo.png",
+          "alt": "Martelo de juiz diante da bandeira do Brasil"
+        }
+      ],
+      "imageCount": 1,
+      "chartCount": 3,
+      "sha256": "2b3621e4c1099516f04b6e1cfd6f0be0250c90a6bcdeb074dd445af826eb236d"
+    },
+    {
+      "group": "subemprego",
+      "sectionIds": [
+        "subemprego",
+        "subemprego-2"
+      ],
+      "normalizedText": "05.O Labirinto do Subempregop. 11 A escada quebrada Como o enxugamento das vagas de nível júnior destrói a formação de novas gerações e empurra uma massa de diplomados para a subutilização crônica no Brasil. A carreira costumava começar em funções de entrada: assistentes, estagiários e programadores juniores aprendiam com colegas experientes até assumir tarefas complexas. Ao transferir relatórios, análises iniciais e código rotineiro para a IA, empresas reduzem esses primeiros degraus e dificultam o ingresso de novos profissionais. Relatórios da OIT e pesquisas do CESIT/Unicamp alertam para esse apagão geracional: sem vaga júnior, recém-formados não adquirem a experiência exigida nas posições seniores. O diploma, obtido após anos de investimento, passa a disputar espaço com ferramentas digitais baratas. A PNAD Contínua do IBGE dimensiona o problema: 33,9 milhões de pessoas em vulnerabilidade laboral, incluindo 20,9 milhões de trabalhadores subutilizados. São pessoas que gostariam de trabalhar mais horas, não conseguem vaga compatível ou desistiram de procurar emprego. Desproteção social no Brasil. Fonte: IBGE / PNAD Contínua. O que é “Subutilização da Força de Trabalho”? Métrica oficial do IBGE que vai muito além da taxa clássica de desemprego. Ela abrange trabalhadores que estão subocupados (fazem bicos com menos horas do que gostariam e precisam), pessoas disponíveis que não encontram vagas compatíveis com sua formação e a população \"desalentada\" — profissionais qualificados que, após meses de silêncio e rejeição algorítmica, simplesmente desistiram de enviar currículos para vagas corporativas. A nova servidão digital 05.O Labirinto do Subempregop. 12 Ricardo Antunes descreve como “uberização” e “nova servidão digital” a passagem do emprego formal para plataformas que transferem custos e riscos aos trabalhadores. Sem reserva para uma longa transição, muitos demitidos recorrem a aplicativos de transporte, entrega ou microtarefas, inclusive para treinar sistemas de IA. O profissional dispensado por um algoritmo no escritório pode passar a trabalhar de 12 a 14 horas nas ruas, sob comandos de outro algoritmo. Combustível, manutenção, internet e perdas por acidente ficam por sua conta. Segundo o módulo de plataformas digitais da PNAD Contínua, 77% dos trabalhadores de aplicativo não contribuem para o INSS, ficando sem a proteção previdenciária associada à contribuição. Mesmo quando empresas reintroduzem trabalho humano para corrigir falhas da IA, nem sempre restauram contratos formais. Assim, o lucro da automação se concentra, enquanto seus riscos sociais se espalham. Previdência no trabalho por aplicativo. Fonte: IBGE / PNAD Contínua.",
+      "images": [
+        {
+          "basename": "uber.png",
+          "alt": "Mão segurando smartphone com o aplicativo do Uber aberto em meio ao trânsito"
+        }
+      ],
+      "imageCount": 1,
+      "chartCount": 2,
+      "sha256": "cdaf5a38aa75d00069d0b72c4d348783ba3b5c0e30c184924b27cf8d8b6cf4db"
+    },
+    {
+      "group": "intervencao",
+      "sectionIds": [
+        "intervencao"
+      ],
+      "normalizedText": "06.Proposta de Intervençãop. 13 Além do lucro dos algoritmos Como o Estado brasileiro pode conter a destruição predatória de empregos, tributar a tecnologia substitutiva e garantir dignidade e direitos na era digital. Frear o descarte de trabalhadores exige ação pública em duas frentes: regras econômicas e trabalhistas para limitar demissões arbitrárias; fiscalização para conter a vigilância algorítmica e a precarização. Os ganhos privados da tecnologia não podem transferir seus custos sociais ao SUS e à seguridade. O Congresso, em diálogo com o MTE e os sindicatos, deve aprovar um marco contra a automação substitutiva, a partir dos PLs 1.091/2019 e 2.421/2023. A proposta busca regulamentar o Art. 7º, incisos I e XXVII, e retomar a proteção prevista na Convenção 158 da OIT. Antes de implantar IA que substitua postos, médias e grandes empresas apresentariam um Estudo Prévio de Impacto sobre o Emprego e ofereceriam capacitação remunerada durante a jornada. Uma Contribuição Social sobre Automação Substitutiva financiaria um Fundo Público de Transição Justa, destinado à requalificação e à manutenção de renda na recolocação (Cunha, 2024). MPT e ANPD fiscalizariam sistemas de People Analytics por auditorias que permitam examinar seus critérios, respeitados os limites legais, e apurar dispensas abusivas. Para aplicativos, a proposta prevê contribuição patronal ao INSS e seguro contra acidentes proporcional às horas conectadas. O objetivo é fazer quem lucra com a automação assumir também a responsabilidade pela transição de quem trabalha. Tarefas realizadas por tecnologia: 38% em 2020 e 47% em 2025 (projeção do relatório de 2020). Fonte: Future of Jobs Report 2020 (WEF), citado em Caliendo & Podolan (2024), p. 9. Destinação proposta do Fundo Social. Marco Legal: impacto projetado.",
+      "images": [],
+      "imageCount": 0,
+      "chartCount": 3,
+      "sha256": "ec1ed5a3d365e574cf62810f2146bc68fb5f20bfda4fb27eb83524616bc21a27"
+    },
+    {
+      "group": "expediente",
+      "sectionIds": [
+        "expediente"
+      ],
+      "normalizedText": "07.Expediente e Integrantesp. 14 O amanhã que escolhemos construir EXPEDIENTE | EDITORA 4:04 Revista Código Vermelho — Edição nº 1 | Ano 1 Publicado em 18 de outubro de 2026 | São Paulo – SP Instituição: Instituto J&F — Germinare Tech Disciplinas: Língua Portuguesa, Sociologia, Língua Inglesa e UX. CORPO EDITORIAL E DIVISÃO DE FUNÇÕES REDAÇÃO & JORNALISMO INVESTIGATIVO Responsáveis pela condução das entrevistas com Marcos e Luis, apuração dos bastidores corporativos e redação da Reportagem e Contextualização. Rogerio Buscariolo da Silva — rogerio.silva@institutojef.org.br Noé Rodrigo Carrion Cusiquispe — noe.cusiquispe@institutojef.org.br Enzo Casares Lanzani Santos — enzo.santos@institutojef.org.br PESQUISA TEÓRICA & DOSSIÊ JURÍDICO-SOCIOLÓGICO Responsáveis pelo levantamento bibliográfico (Pasquinelli, Antunes, Acemoglu), análise da jurisprudência do STF (ADI 1625 / OIT 158) e compilação dos microdados do CAGED, FGV IBRE e IBGE. Pedro Macêdo Silva — pedro.macedo@institutojef.org.br Mateus Carlos da Silva Pereira — mateus.pereira@institutojef.org.br Lucas de Oliveira Candido dos Santos — lucas.candido@institutojef.org.br Enzo Casares Lanzani Santos — enzo.santos@institutojef.org.br DESIGN VISUAL, INFOGRAFIA & DIAGRAMAÇÃO Responsáveis pela criação da identidade visual, capa conceitual, geração dos gráficos em alta resolução e diagramação do layout no Figma. Rogerio Buscariolo da Silva — rogerio.silva@institutojef.org.br Noé Rodrigo Carrion Cusiquispe — noe.cusiquispe@institutojef.org.br AGRADECIMENTOS Agradecemos aos desenvolvedores que compartilharam suas histórias e vivências profissionais sob a condição de anonimato, e aos professores do Instituto J&F pelo estímulo contínuo ao pensamento crítico e à sociologia transformadora. Enzo Casares Lucas Candido Mateus Pereira Noé Carrion Pedro Macêdo Rogerio Buscariolo INTEGRANTES",
+      "images": [
+        {
+          "basename": "enzo-casares-original.png",
+          "alt": "Foto de Enzo Casares"
+        },
+        {
+          "basename": "lucas-candido-original.png",
+          "alt": "Foto de Lucas Candido"
+        },
+        {
+          "basename": "mateus-pereira-original.png",
+          "alt": "Foto de Mateus Pereira"
+        },
+        {
+          "basename": "noe-carrion-original.png",
+          "alt": "Foto de Noé Carrion"
+        },
+        {
+          "basename": "pedro-macedo-original.png",
+          "alt": "Foto de Pedro Macêdo"
+        },
+        {
+          "basename": "rogerio-buscariolo-original.png",
+          "alt": "Foto de Rogerio Buscariolo"
+        }
+      ],
+      "imageCount": 6,
+      "chartCount": 0,
+      "sha256": "e81bd7e05b8d2de1d0d844bd8b5fae454f4fe5c47ace766b94f207f58bf45165"
+    },
+    {
+      "group": "referencias",
+      "sectionIds": [
+        "referencias"
+      ],
+      "normalizedText": "08.Referências Bibliográficasp. 15 ACEMOGLU, Daron; RESTREPO, Pascual. The Race between Man and Machine: Implications of Technology for Growth, Factor Shares, and Employment. American Economic Review, v. 108, n. 6, p. 1488-1542, jun. 2018. ACEMOGLU, Daron; RESTREPO, Pascual. Robots and Jobs: Evidence from US Labor Markets. Journal of Political Economy, Chicago, v. 128, n. 6, p. 2188-2244, 2020. ANTUNES, Ricardo. O Privilégio da Servidão: o novo proletariado de serviços na era digital. 1. ed. São Paulo: Boitempo, 2018. ANTUNES, Ricardo (Org.). Uberização, trabalho digital e Indústria 4.0. 1. ed. São Paulo: Boitempo, 2020. AZEVEDO, Beatriz Regina Zago de. Emprego, desemprego e subemprego: uma revisão da literatura crítica. Ensaios FEE, Porto Alegre, v. 6, n. 1, p. 155-168, 1985. BARBOSA, Munyse Barros. Mercado de Trabalho em Empresas de Tecnologia no Brasil: desafios e oportunidades. 2023. 66 f. Dissertação (Mestrado Profissional em Gestão Organizacional) — Faculdade de Gestão e Negócios, Universidade Federal de Uberlândia (UFU), Uberlândia, 2023. BRASIL. [Constituição (1988)]. Constituição da República Federativa do Brasil de 1988. Brasília, DF: Presidência da República. Disponível em: planalto.gov.br. Acesso em: 18 out. 2026. BRASIL. Decreto-Lei nº 5.452, de 1º de maio de 1943. Aprova a Consolidação das Leis do Trabalho (CLT). [Artigo 2º - Princípio da Alteridade]. Brasília, DF: Presidência da República, 1943. BRASIL. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). [Artigo 20 - Revisão humana de decisões automatizadas]. Brasília, DF: Presidência da República, 2018. BRASIL. Câmara dos Deputados. Projeto de Lei nº 1.091/2019. Dispõe sobre a proteção do trabalhador em face da automação e dá outras providências. Brasília, DF: Câmara dos Deputados, 2019. BRASIL. Câmara dos Deputados. Projeto de Lei nº 2.421/2023. Institui a Política Nacional de Mitigação dos Impactos da Inteligência Artificial sobre o Emprego e a Tributação sobre Automação Substitutiva. Brasília, DF: Câmara dos Deputados, 2023. BRASIL. Ministério do Trabalho e Emprego (MTE). Cadastro Geral de Empregados e Desempregados (CAGED): Microdados sobre movimentação e desligamentos de trabalhadores no setor de Tecnologia da Informação. Brasília, DF: MTE, 2022-2023. CALIENDO, Paulo; PODOLAN, Plínio Gevezier. Desemprego em massa pela tecnologia: impacto ambiental do trabalho e desenvolvimento insustentável. Veredas do Direito, Belo Horizonte, v. 21, e212622, p. 1-23, 2024. CESIT — Centro de Estudos Sindicais e de Economia do Trabalho. As novas e velhas máscaras da terceirização no capitalismo contemporâneo. Carta Social e do Trabalho, Campinas: Instituto de Economia da Unicamp, n. 34, p. i-iii, jul./dez. 2016. CUNHA, Isaac Rodrigues. Tributação, Desemprego Estrutural e Tecnologia: a Proteção Constitucional do Trabalhador em Face da Automação e a Figura do \"Robô Contribuinte\". Revista Interagir, Fortaleza: Centro Universitário Christus, Ano XIX, v. 19, n. 127, Edição Suplementar, p. 49-52, jul./ago./set. 2024. ESTRADA, Manuel Martín Pino. Inteligência Artificial e Desemprego. Revista Direito & TI — Debates Contemporâneos, Porto Alegre, n. 1, p. 1-6, 2022. FGV IBRE — Instituto Brasileiro de Economia da Fundação Getulio Vargas. Evolução do Rendimento Real no Brasil por Nível de Instrução e Escolaridade (2014-2024). Rio de Janeiro: FGV, 2023. GRAY, Mary L.; SURI, Siddharth. Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass. Boston: Houghton Mifflin Harcourt, 2019. IBGE — Instituto Brasileiro de Geografia e Estatística. Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua): Módulo de Teletrabalho e Plataformas Digitais. Rio de Janeiro: IBGE, 2022-2023. OLIVEIRA, Thainá Santos de. Impacto da Inteligência Artificial e da Automação no Mercado de Trabalho. Revista Científica ACERTTE, v. 5, n. 1, e51216, p. 1-10, jan. 2025. ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT). Convenção nº 158 sobre o Término da Relação de Trabalho por Iniciativa do Empregador. Genebra: OIT, 1982. PASQUINELLI, Matteo. The Eye of the Master: A Social History of Artificial Intelligence. 1. ed. London: Verso Books, 2023. SUPREMO TRIBUNAL FEDERAL (STF). Ação Direta de Inconstitucionalidade nº 1.625/DF. Denúncia da Convenção nº 158 da OIT por decreto presidencial. Relator: Min. Maurício Corrêa. Redator do acórdão: Min. Dias Toffoli. Julgado em 02 jun. 2023. Brasília, DF: STF, 2023. SUPREMO TRIBUNAL FEDERAL (STF). Tema nº 638 da Repercussão Geral (Recurso Extraordinário nº 999.435/SP). A intervenção sindical prévia é exigência procedimental imprescindível para a dispensa em massa. Relator: Min. Edson Fachin. Julgado em 08 jun. 2022. Brasília, DF: STF, 2022. TRIBUNAL SUPERIOR DO TRABALHO (TST). Súmula nº 443. Dispensa discriminatória. Presunção. Empregado portador de doença grave ou estigma. Reintegração de posse e indenização. Brasília, DF: TST, 2012. WORLD ECONOMIC FORUM (WEF). The Future of Jobs Report 2023. Geneva: World Economic Forum, 2023.",
+      "images": [],
+      "imageCount": 0,
+      "chartCount": 0,
+      "sha256": "e8d43886ef7f1970919135efe79878f4180aa656d64f4614d7ac76c991541c75"
+    }
+  ]
+}

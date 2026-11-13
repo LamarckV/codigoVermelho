@@ -1,0 +1,123 @@
+/* ==========================================================================
+   CÓDIGO VERMELHO — SISTEMA DE DESIGN (TOKENS)
+   Jornalismo Investigativo Independente & Contra-Auditoria Algorítmica
+   Arquivo: site/css/tokens.css
+   ========================================================================== */
+
+/* ---------- 1. Tipografia e Font-Faces ---------- */
+@font-face {
+  font-family: "Rodchenko";
+  src: local("Rodchenko"), local("Rodchenko Regular"), local("RodchenkoCTT");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: local("Lufga"), local("Lufga Regular"), local("Lufga-Regular");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: local("Lufga Bold"), local("Lufga-Bold");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ---------- 2. Paleta Cromática Editorial ---------- */
+  /* Cores Principais da Revista */
+  --red: #e00508;               /* Vermelho Alerta / Bisturi de atenção */
+  --red-hover: #b80003;         /* Vermelho escuro para foco e hover */
+  --red-light: rgba(224, 5, 8, 0.08); /* Fundo de destaque sutil */
+  --orange: #ed4b2a;            /* Laranja construtivista */
+  --navy: #163a56;             /* Azul-marinho profundo de rotativa */
+  --navy-dark: #0e2436;        /* Azul-marinho escuro para bordas */
+  --blue-box: #004f77;          /* Azul institucional de caixas conceituais */
+  --text-on-blue-box: #ffffff;  /* Contraste para caixas azuis */
+  --text-on-red-box: #ffffff;   /* Contraste para caixas vermelhas */
+  --yellow-tape: #f3ea00;       /* Amarelo de fita pericial / 1ª Edição */
+
+  /* Superfícies e Suportes de Papel (Fluxo Contínuo) */
+  --paper: #f7f6f2;            /* Papel de impressão suave contínuo */
+  --paper-card: #ffffff;       /* Cartões em relevo sobre papel */
+  --paper-warm: #f4f0e6;       /* Tom levemente aquecido para caixas */
+  --paper-line: rgba(22, 58, 86, 0.14); /* Linhas milimetradas técnicas */
+  --canvas: var(--paper);      /* O canvas agora é contínuo com o papel */
+  --rule: rgba(22, 58, 86, 0.18);
+  --rule-light: rgba(22, 58, 86, 0.10);
+  --border: rgba(22, 58, 86, 0.16);
+
+  /* Ambiente Noturno da Reportagem (Decisão de Design com chave única) */
+  --reportagem-bg: #0b1219;     /* Faixa escura contínua */
+  --reportagem-ink: #ded8cb;    /* Texto linho: 13.27:1 sobre o fundo noturno */
+  --reportagem-muted: #8fa0b0;  /* Metadados: 7.02:1 sobre o fundo noturno */
+  --reportagem-title: #ff7579;  /* Título vermelho: 7.24:1 sobre o fundo noturno */
+  --night: #050505;            /* Preto carvão de terminal */
+  --night-surface: #111418;    /* Superfície de cartão escuro */
+  --night-card: #181d22;       /* Cartões em relevo escuros */
+  --night-text: #ded8cb;       /* Linho suave para leitura repousante */
+  --night-muted: #8b96a0;      /* Texto de metadados em fundo escuro */
+  --night-border: rgba(224, 5, 8, 0.35); /* Filetes vermelhos de monitor */
+  /* Tinta de Texto (Superfície Clara) */
+  --ink: #14171a;              /* Tinta preta de rotativa (15.8:1 contraste) */
+  --ink-secondary: #333d47;    /* Texto secundário e legendas */
+  --ink-muted: #5e6b77;        /* Metadados, folios e números de página */
+
+  /* ---------- 3. Pilhas Tipográficas com Fallbacks Robustos ---------- */
+  --font-display: "Rodchenko", "Stardos Stencil", "Impact", "Oswald", "Arial Black", sans-serif;
+  --font-body: "Lufga", "Outfit", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+
+  /* Aliases universais de compatibilidade editorial */
+  --display: var(--font-display);
+  --sans: var(--font-body);
+  --headline: var(--font-display);
+  --mono: var(--font-mono);
+  --serif: var(--font-serif);
+  --ui: var(--font-body);
+
+  /* Escala Modular Fluida via clamp() */
+  --text-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);  /* 12–13px */
+  --text-sm: clamp(0.8125rem, 0.78rem + 0.2vw, 0.9375rem); /* 13–15px */
+  --text-base: clamp(0.96rem, 0.90rem + 0.25vw, 1.08rem);   /* 15.5–17.5px */
+  --text-lg: clamp(1.125rem, 1.05rem + 0.4vw, 1.3125rem);   /* 18–21px */
+  --text-xl: clamp(1.25rem, 1.15rem + 0.6vw, 1.625rem);     /* 20–26px */
+  --text-2xl: clamp(1.5rem, 1.35rem + 1vw, 2.125rem);       /* 24–34px */
+  --text-3xl: clamp(2rem, 1.7rem + 1.8vw, 3rem);            /* 32–48px */
+  --text-hero: clamp(2.5rem, 2rem + 3.5vw, 4.75rem);        /* 40–76px */
+
+  /* Leading Editorial */
+  --leading-tight: 1.08;
+  --leading-snug: 1.25;
+  --leading-normal: 1.5;
+  --leading-reading: 1.64;     /* Conforto de leitura longa */
+
+  /* Contêiner Único e Ritmo Vertical */
+  --container-max: 1220px;
+  --container-gutter: clamp(16px, 3.5vw, 36px);
+  --section-padding-y: clamp(48px, 6vw, 84px);
+  --reading-width: 68ch;
+  --header-height: 56px;
+
+  /* ---------- 4. Sombras Duras de Impressão ---------- */
+  --shadow-sm: 2px 2px 0 var(--navy);
+  --shadow-md: 4px 4px 0 var(--navy);
+  --shadow-lg: 6px 6px 0 var(--navy);
+  --shadow-red: 4px 4px 0 var(--red);
+  --shadow-night: 4px 4px 0 #000000;
+  --shadow-offset-md: 4px;
+  --clip-cut-md: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
+  --clip-cut-sm: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%);
+
+  /* ---------- 5. Transições e Animações Sutis ---------- */
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 160ms;
+  --duration-normal: 260ms;
+}
